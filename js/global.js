@@ -1,7 +1,12 @@
 $(function () {
-	var screen_width = window.innerWidth || document.documentElement.clientWidth,
-		screen_height = window.innerHeight || document.documentElement.clientHeight;
+	var Screen_width = window.innerWidth || document.documentElement.clientWidth,
+		Screen_height = window.innerHeight || document.documentElement.clientHeight;
 
+
+	$(window).resize(function() {
+		Screen_width = window.innerWidth || document.documentElement.clientWidth;
+		Screen_height = window.innerHeight || document.documentElement.clientHeight;
+	});
 
 	$('#ri-grid').gridrotator({
 		rows: 2,
@@ -34,7 +39,7 @@ $(function () {
 	 */
 	window.onload = function () {
 		//var headers = document.querySelectorAll('#docs h2, #guide h1');
-		if(screen_width > 959){
+		if(Screen_width > 959){
 			var menu = document.getElementById('actions');
 			if(menu !== null){
 				var init = menu.offsetTop  + 560;
