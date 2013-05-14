@@ -1,0 +1,1218 @@
+
+<!doctype html>
+<html xml:lang="en" lang="en" dir="ltr">
+<head>
+	<title>CreativeDash</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=2">
+	<link rel="stylesheet" href="public/css/bootstrap.min.css">
+	<!--<link rel="stylesheet" href="public/css/styles.min.css?v=4">-->
+	<link rel="stylesheet" href="public/css/styles.css?v=4">
+	<script src="public/js/modernizr.js"></script>
+	<script type="text/javascript">
+		<!--
+		if (screen.width <= 960) {
+			document.location = "mobile.html";
+		}
+		//-->
+	</script>
+</head>
+<body class="enhance" data-enhance="*">
+<div class="container">
+<header class="fn-stacknav">
+	<div class="stack">
+		<div class="logo">
+			<a href="#home"><img src="http://creativeda.sh/beta/public/img/logo-@2x.png" alt="Creative Dash logo."></a>
+		</div>
+		<nav>
+			<ul>
+				<li><a href="#home" class="active">Home</a></li>
+				<li><a href="#portfolio">Portfolio</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+	</div>
+</header>
+<div class="main" role="main">
+<div class="carrouselWrapper enhance" data-enhance="carrousel" id="home">
+	<section class="carrousel fn-carrousel">
+		<!--
+		HEADER SLIDESHOW - START
+		If you want to change the big picture in the slideshow you just have to add/remove the fallowing:
+
+		<article data-label="[MESSAGE AT THE BOTTOM RIGHT]"><a href="#"><img src="[PATH TO YOUR PICTURE]" width="1280"></a></article>
+		-->
+		<article data-label="First message"><a href="#"><img src="http://creativeda.sh/beta/public/img/dummy-carrousel.jpg" width="1280"></a></article>
+		<article data-label="Second message"><a href="#"><img src="http://creativeda.sh/beta/public/img/dummy-carrousel2.jpg" width="1280"></a></article>
+		<article data-label="First message"><a href="#"><img src="http://creativeda.sh/beta/public/img/dummy-carrousel.jpg" width="1280"></a></article>
+		<article data-label="Second message"><a href="#"><img src="http://creativeda.sh/beta/public/img/dummy-carrousel2.jpg" width="1280"></a></article>
+		<!--
+		HEADER SLIDESHOW - END
+		-->
+	</section>
+</div>
+<section class="content enhance" data-enhance="portfolioListing">
+<aside class="social">
+	<span class="title">CONNECT WITH US</span>
+	<ul>
+		<li><a class="be" href="http://www.behance.net/creativedash"><span class="hover"></span><span class="caption">Be</span></a></li>
+		<li><a class="dr" href="http://dribbble.com/dash"><span class="hover"></span><span class="caption">Dribbble</span></a></li>
+		<li><a class="fb" href="http://www.facebook.com/creativedash"><span class="hover"></span><span class="caption">Facebook</span></a></li>
+		<!--<li><a class="fo" href="#"><span class="hover"></span><span class="caption">Forrest</span></a></li>-->
+		<!--<li><a class="gg" href="#"><span class="hover"></span><span class="caption">Google+</span></a></li>-->
+		<li><a class="in" href="http://instagram.com/creativedash"><span class="hover"></span><span class="caption">Instagram</span></a></li>
+		<li><a class="pi" href="http://pinterest.com/creativedash/"><span class="hover"></span><span class="caption">Pinterest</span></a></li>
+		<li><a class="tw" href="http://twitter.com/creativedash"><span class="hover"></span><span class="caption">Twitter</span></a></li>
+		<li><a class="vi" href="http://vimeo.com/user13174845"><span class="hover"></span><span class="caption">Vimeo</span></a></li>
+	</ul>
+</aside>
+<section id="portfolio" class="portfolioListing fn-portfolioListing fn-portfolioListing-show-overlay" data-rel-list="app-master-list" data-cat="1">
+<nav>
+	<span class="title">Our Work</span>
+	<ul class="portfolio-filters">
+		<!--
+		PORTFOLIO/OUR WORK - FILTERS - START
+		If you want to add a filter/category you have to add the fallowing:
+
+		<li><a data-category="[CATEGORY ID]">[CATEGORY NAME]</a></li>
+
+		[CATEGORY ID] - You need to put only a keyword. This key word will be the reference for the content in that section.
+		[CATEGORY NAME] - You can put whatever you want. It won't affect anything.
+		-->
+		<li><a data-category="ux">UX / UI</a></li>
+		<li><a data-category="web">Web</a></li>
+		<li><a data-category="icons">Icons</a></li>
+		<li><a data-category="3D">3D</a></li>
+		<li><a data-category="concept">Concepts</a></li>
+		<li><a class="active">All</a></li>
+		<!--
+		PORTFOLIO/OUR WORK - FILTERS - END
+		-->
+	</ul>
+</nav>
+
+<div class="portfolioCarrousel fn-portfolioCarrousel" data-ajust-height="false"></div>
+
+<div class="portfolioCarrousel_nav_wrapper">
+	<div class="portfolioCarrousel_nav"></div>
+	<a href="#" class="carrousel_prev page-button-disabled" data-page="0"><span class="caption">Prev</span><span class="hover"></span></a>
+	<a href="#" class="carrousel_next" data-page="2"><span class="caption">Next</span><span class="hover"></span></a>
+</div>
+
+<div id="app-master-list" class="hidden">
+<!--
+PORTFOLIO/OUR WORK - CONTENT - START
+If you want to add a project you have to add the fallowing:
+
+cc
+
+Pay attention to:
+[CATEGORY ID] - You can add more then one keyword if you want a project to be in many categories
+[PATH TO YOUR THUMBNAIL]
+[PATH TO YOUR BIGGER PICTURE]
+[PROJECT URL]
+[PROJECT URL TEXT]
+[PROJECT TITLE]
+[PROJECT DETAILS/DESCRIPTION]
+[CLIENT NAME]
+[CLIENT DETAILS]
+-->
+
+<!-- This is an example -->
+<article data-categories="3D icons">
+	<a href="#">
+		<img width="248" height="186" src="http://creativeda.sh/beta/public/img/projects/footage.png">
+		<div class="preview">
+		</div>
+		<div class="hover"></div>
+		<div class="projectContent" data-project-has-app="true" data-project-img="http://creativeda.sh/beta/public/img/projects/footage-presentation.png"  data-project-url-link="http://footageapp.com/" data-project-url-text=" footageapp.com">
+			<span class="project-title">Footage</span>
+			<p class="project-details">Drew Wilson approached us with an idea idea for a 3D icon for Footage, a video editor for Mac. The icon was made in Cinema 4D then stylized in Photoshop.</p>
+			<span class="client-title">Client</span>
+			<p class="client-details">Drew Wilson</p>
+		</div>
+	</a>
+</article>
+<article data-categories="3D icons">
+	<a href="#">
+		<img width="248" height="186" src="http://creativeda.sh/beta/public/img/projects/3D/cerberus_thumb.png">
+		<div class="preview">
+		</div>
+		<div class="hover"></div>
+		<div class="projectContent" data-project-has-app="true" data-project-img="http://creativeda.sh/beta/public/img/projects/3D/cerberus.png"  data-project-url-link="" data-project-url-text="">
+			<span class="project-title">Cerberus</span>
+			<p class="project-details">The guys at Cerber Antivirus were in need of an image that would portray the core values of their company. This was styled in a similar way as the "Game of Thrones" badges.</p>
+			<span class="client-title">Client</span>
+			<p class="client-details">Cerber Antivirus</p>
+		</div>
+	</a>
+</article>
+<article data-categories="3D icons">
+	<a href="#">
+		<img width="248" height="186" src="http://creativeda.sh/beta/public/img/projects/3D/defender_thumb.png">
+		<div class="preview">
+		</div>
+		<div class="hover"></div>
+		<div class="projectContent" data-project-has-app="true" data-project-img="http://creativeda.sh/beta/public/img/projects/3D/defender.png"  data-project-url-link="" data-project-url-text="">
+			<span class="project-title">Defender</span>
+			<p class="project-details">Defense Mobile needed an icon that would clearly convey the purpose of their app. This was completed in a similar way to the Cerberus project.</p>
+			<span class="client-title">Client</span>
+			<p class="client-details">Defense Mobile</p>
+		</div>
+	</a>
+</article>
+<article data-categories="3D">
+	<a href="#">
+		<img width="248" height="186" src="http://creativeda.sh/beta/public/img/projects/3D/dribbble_thumb.png">
+		<div class="preview">
+		</div>
+		<div class="hover"></div>
+		<div class="projectContent" data-project-has-app="true" data-project-img="http://creativeda.sh/beta/public/img/projects/3D/dribbble.png"  data-project-url-link="http://www.dribbble.com/dash" data-project-url-text="dribbble.com/dash">
+			<span class="project-title">Dribbble</span>
+			<p class="project-details">CreativeDash Internal Project - When we got the opportunity to invite designers to dribbble, we created this graphic to spur interest.</p>
+			<span class="client-title">Client</span>
+			<p class="client-details">CreativeDash, LLC.</p>
+		</div>
+	</a>
+</article>
+<article data-categories="3D">
+	<a href="#">
+		<img width="248" height="186" src="http://creativeda.sh/beta/public/img/projects/3D/jivaldi_thumb.png">
+		<div class="preview">
+		</div>
+		<div class="hover"></div>
+		<div class="projectContent" data-project-has-app="true" data-project-img="http://creativeda.sh/beta/public/img/projects/3D/jivaldi.png"  data-project-url-link="" data-project-url-text="">
+			<span class="project-title">Jivaldi</span>
+			<p class="project-details">Jivaldi needed an eye-catching 3D variant of their logo. This was a great opportunity to experiment with glass surfaces and their interaction with liquids.</p>
+			<span class="client-title">Client</span>
+			<p class="client-details">Jivaldi, LLC.</p>
+		</div>
+	</a>
+</article>
+<article data-categories="3D">
+	<a href="#">
+		<img width="248" height="186" src="http://creativeda.sh/beta/public/img/projects/3D/kickit_thumb.png">
+		<div class="preview">
+		</div>
+		<div class="hover"></div>
+		<div class="projectContent" data-project-has-app="true" data-project-img="http://creativeda.sh/beta/public/img/projects/3D/kickit.png"  data-project-url-link="http://www.fcbarcelona.com" data-project-url-text="fcbarcelona.com">
+			<span class="project-title">Kick It!</span>
+			<p class="project-details">An interesting technique was used to convey the slowdown of time here. The bubble gives a sense of high resistance.</p>
+			<span class="client-title">Client</span>
+			<p class="client-details">FC Barcelona</p>
+		</div>
+	</a>
+</article>
+<article data-categories="3D">
+	<a href="#">
+		<img width="248" height="186" src="http://creativeda.sh/beta/public/img/projects/3D/spideysuit_thumb.png">
+		<div class="preview">
+		</div>
+		<div class="hover"></div>
+		<div class="projectContent" data-project-has-app="true" data-project-img="http://creativeda.sh/beta/public/img/projects/3D/spideysuit.png"  data-project-url-link="" data-project-url-text="">
+			<span class="project-title">Dribbble</span>
+			<p class="project-details">CreativeDash Internal Project - Inspired by Spider-Man, this 3D work was produced in Maya and styled in Photoshop.</p>
+			<span class="client-title">Client</span>
+			<p class="client-details">CreativeDash, LLC.</p>
+		</div>
+	</a>
+</article>
+<article data-categories="3D">
+	<a href="#">
+		<img width="248" height="186" src="http://creativeda.sh/beta/public/img/projects/3D/squarespace_thumb.png">
+		<div class="preview">
+		</div>
+		<div class="hover"></div>
+		<div class="projectContent" data-project-has-app="true" data-project-img="http://creativeda.sh/beta/public/img/projects/3D/squarespace.png"  data-project-url-link="http://www.squarespace.com" data-project-url-text="squarespace.com">
+			<span class="project-title">Squarespace</span>
+			<p class="project-details">This project was contracted by Squarespace; notice the small logos in the center.</p>
+			<span class="client-title">Client</span>
+			<p class="client-details">Squarespace Inc.</p>
+		</div>
+	</a>
+</article>
+<article data-categories="3D">
+	<a href="#">
+		<img width="248" height="186" src="http://creativeda.sh/beta/public/img/projects/3D/totalpay_thumb.png">
+		<div class="preview">
+		</div>
+		<div class="hover"></div>
+		<div class="projectContent" data-project-has-app="true" data-project-img="http://creativeda.sh/beta/public/img/projects/3D/totalpay.png"  data-project-url-link="" data-project-url-text="">
+			<span class="project-title">Totalpay</span>
+			<p class="project-details">This is a promotional graphic showing the use of the Totalpay app (also designed by us) in a rugged environment.</p>
+			<span class="client-title">Client</span>
+			<p class="client-details">Totalpay, LLC.</p>
+		</div>
+	</a>
+</article>
+<article data-categories="icons 3D">
+	<a href="#">
+		<img width="248" height="186" src="http://creativeda.sh/beta/public/img/projects/icons/anyshape_thumb.png">
+		<div class="preview">
+		</div>
+		<div class="hover"></div>
+		<div class="projectContent" data-project-has-app="true" data-project-img="http://creativeda.sh/beta/public/img/projects/icons/anyshape.png"  data-project-url-link="" data-project-url-text="">
+			<span class="project-title">Anyshape</span>
+			<p class="project-details">The client requested a photorealistic element in the icon. The photo editing app would need to be somewhat self-explanatory. Created in Maya.</p>
+			<span class="client-title">Client</span>
+			<p class="client-details">Samer Azzam</p>
+		</div>
+	</a>
+</article>
+<article data-categories="icons">
+	<a href="#">
+		<img width="248" height="186" src="http://creativeda.sh/beta/public/img/projects/icons/baseball_thumb.png">
+		<div class="preview">
+		</div>
+		<div class="hover"></div>
+		<div class="projectContent" data-project-has-app="true" data-project-img="http://creativeda.sh/beta/public/img/projects/icons/baseball.png"  data-project-url-link="http://creativeda.sh" data-project-url-text="creativeda.sh">
+			<span class="project-title">Squareball</span>
+			<p class="project-details">CreativeDash Experimental Project</p>
+			<span class="client-title">Client</span>
+			<p class="client-details">CreativeDash, LLC.</p>
+		</div>
+	</a>
+</article>
+<article data-categories="icons">
+	<a href="#">
+		<img width="248" height="186" src="http://creativeda.sh/beta/public/img/projects/icons/beach_thumb.png">
+		<div class="preview">
+		</div>
+		<div class="hover"></div>
+		<div class="projectContent" data-project-has-app="true" data-project-img="http://creativeda.sh/beta/public/img/projects/icons/beach.png"  data-project-url-link="http://creativeda.sh" data-project-url-text="creativeda.sh">
+			<span class="project-title">Day at the Beach</span>
+			<p class="project-details">CreativeDash Experimental Project</p>
+			<span class="client-title">Client</span>
+			<p class="client-details">CreativeDash, LLC.</p>
+		</div>
+	</a>
+</article>
+<article data-categories="icons">
+	<a href="#">
+		<img width="248" height="186" src="http://creativeda.sh/beta/public/img/projects/icons/bunz_thumb.png">
+		<div class="preview">
+		</div>
+		<div class="hover"></div>
+		<div class="projectContent" data-project-has-app="true" data-project-img="http://creativeda.sh/beta/public/img/projects/icons/bunz.png"  data-project-url-link="http://creativeda.sh" data-project-url-text="creativeda.sh">
+			<span class="project-title">Bunz!</span>
+			<p class="project-details">CreativeDash Experimental Project</p>
+			<span class="client-title">Client</span>
+			<p class="client-details">CreativeDash, LLC.</p>
+		</div>
+	</a>
+</article>
+<article data-categories="icons 3D">
+	<a href="#">
+		<img width="248" height="186" src="http://creativeda.sh/beta/public/img/projects/icons/calendar_thumb.png">
+		<div class="preview">
+		</div>
+		<div class="hover"></div>
+		<div class="projectContent" data-project-has-app="true" data-project-img="http://creativeda.sh/beta/public/img/projects/icons/calendar.png"  data-project-url-link="http://www.toyota-global.com/" data-project-url-text="toyota-global.com">
+			<span class="project-title">Calendar</span>
+			<p class="project-details">This was part of a package of web assets for Toyota USA.</p>
+			<span class="client-title">Client</span>
+			<p class="client-details">Toyota Motor Corporation</p>
+		</div>
+	</a>
+</article>
+<article data-categories="icons">
+	<a href="#">
+		<img width="248" height="186" src="http://creativeda.sh/beta/public/img/projects/icons/doors_thumb.png">
+		<div class="preview">
+		</div>
+		<div class="hover"></div>
+		<div class="projectContent" data-project-has-app="true" data-project-img="http://creativeda.sh/beta/public/img/projects/icons/doors.png"  data-project-url-link="http://creativeda.sh" data-project-url-text="creativeda.sh">
+			<span class="project-title">Doors</span>
+			<p class="project-details">CreativeDash Experimental Project</p>
+			<span class="client-title">Client</span>
+			<p class="client-details">CreativeDash, LLC.</p>
+		</div>
+	</a>
+</article>
+<article data-categories="icons 3D">
+	<a href="#">
+		<img width="248" height="186" src="http://creativeda.sh/beta/public/img/projects/icons/fileandchat_thumb.png">
+		<div class="preview">
+		</div>
+		<div class="hover"></div>
+		<div class="projectContent" data-project-has-app="true" data-project-img="http://creativeda.sh/beta/public/img/projects/icons/fileandchat.png"  data-project-url-link="http://www.toyota-global.com/" data-project-url-text="toyota-global.com">
+			<span class="project-title">File/Chat</span>
+			<p class="project-details">This was part of a package of web assets for Toyota USA.</p>
+			<span class="client-title">Client</span>
+			<p class="client-details">Toyota Motor Corporation</p>
+		</div>
+	</a>
+</article>
+<article data-categories="icons">
+	<a href="#">
+		<img width="248" height="186" src="http://creativeda.sh/beta/public/img/projects/icons/golf_thumb.png">
+		<div class="preview">
+		</div>
+		<div class="hover"></div>
+		<div class="projectContent" data-project-has-app="true" data-project-img="http://creativeda.sh/beta/public/img/projects/icons/golf.png"  data-project-url-link="http://creativeda.sh" data-project-url-text="creativeda.sh">
+			<span class="project-title">Square Golf</span>
+			<p class="project-details">CreativeDash Experimental Project</p>
+			<span class="client-title">Client</span>
+			<p class="client-details">CreativeDash, LLC.</p>
+		</div>
+	</a>
+</article>
+<article data-categories="icons">
+	<a href="#">
+		<img width="248" height="186" src="http://creativeda.sh/beta/public/img/projects/icons/learn_thumb.png">
+		<div class="preview">
+		</div>
+		<div class="hover"></div>
+		<div class="projectContent" data-project-has-app="true" data-project-img="http://creativeda.sh/beta/public/img/projects/icons/learn.png"  data-project-url-link="http://www.endlessm.com/" data-project-url-text="endlessm.com">
+			<span class="project-title">Learn</span>
+			<p class="project-details">The client requested something that would carry accross the idea of training and learning, effective education.</p>
+			<span class="client-title">Client</span>
+			<p class="client-details">Endless Mobile</p>
+		</div>
+	</a>
+</article>
+<article data-categories="icons 3D">
+	<a href="#">
+		<img width="248" height="186" src="http://creativeda.sh/beta/public/img/projects/icons/medical_thumb.png">
+		<div class="preview">
+		</div>
+		<div class="hover"></div>
+		<div class="projectContent" data-project-has-app="true" data-project-img="http://creativeda.sh/beta/public/img/projects/icons/medical.png"  data-project-url-link="http://www.toyota-global.com/" data-project-url-text="toyota-global.com">
+			<span class="project-title">Medicine Bag</span>
+			<p class="project-details">This was part of a package of web assets for Toyota USA.</p>
+			<span class="client-title">Client</span>
+			<p class="client-details">Toyota Motor Corporation</p>
+		</div>
+	</a>
+</article>
+<article data-categories="icons">
+	<a href="#">
+		<img width="248" height="186" src="http://creativeda.sh/beta/public/img/projects/icons/metal_thumb.png">
+		<div class="preview">
+		</div>
+		<div class="hover"></div>
+		<div class="projectContent" data-project-has-app="true" data-project-img="http://creativeda.sh/beta/public/img/projects/icons/metal.png"  data-project-url-link="http://creativeda.sh" data-project-url-text="creativeda.sh">
+			<span class="project-title">Metal</span>
+			<p class="project-details">CreativeDash Experimental Project</p>
+			<span class="client-title">Client</span>
+			<p class="client-details">CreativeDash, LLC.</p>
+		</div>
+	</a>
+</article>
+<article data-categories="icons">
+	<a href="#">
+		<img width="248" height="186" src="http://creativeda.sh/beta/public/img/projects/icons/metalik_thumb.png">
+		<div class="preview">
+		</div>
+		<div class="hover"></div>
+		<div class="projectContent" data-project-has-app="true" data-project-img="http://creativeda.sh/beta/public/img/projects/icons/metalik.png"  data-project-url-link="http://creativeda.sh" data-project-url-text="creativeda.sh">
+			<span class="project-title">Metalik</span>
+			<p class="project-details">CreativeDash Experimental Project</p>
+			<span class="client-title">Client</span>
+			<p class="client-details">CreativeDash, LLC.</p>
+		</div>
+	</a>
+</article>
+<article data-categories="icons 3D">
+	<a href="#">
+		<img width="248" height="186" src="http://creativeda.sh/beta/public/img/projects/icons/pirates_thumb.png">
+		<div class="preview">
+		</div>
+		<div class="hover"></div>
+		<div class="projectContent" data-project-has-app="true" data-project-img="http://creativeda.sh/beta/public/img/projects/icons/pirates.png"  data-project-url-link="http://chaoticmoon.com" data-project-url-text="chaoticmoon.com">
+			<span class="project-title">Pirates!</span>
+			<p class="project-details">Pirates! was a real-time strategy game that was developed in parallel for both iOS and Android. The client requested a very "3D" icon with a lot of depth to it.</p>
+			<span class="client-title">Client</span>
+			<p class="client-details">Chaotic Moon</p>
+		</div>
+	</a>
+</article>
+<article data-categories="icons">
+	<a href="#">
+		<img width="248" height="186" src="http://creativeda.sh/beta/public/img/projects/icons/primal_thumb.png">
+		<div class="preview">
+		</div>
+		<div class="hover"></div>
+		<div class="projectContent" data-project-has-app="true" data-project-img="http://creativeda.sh/beta/public/img/projects/icons/primal.png"  data-project-url-link="" data-project-url-text="">
+			<span class="project-title">Primal</span>
+			<p class="project-details">Primal is a social networking app based on video sharing. The innovative UI was built all around images.</p>
+			<span class="client-title">Client</span>
+			<p class="client-details">Primal, Ltd.</p>
+		</div>
+	</a>
+</article>
+<article data-categories="icons">
+	<a href="#">
+		<img width="248" height="186" src="http://creativeda.sh/beta/public/img/projects/icons/relaxpod_thumb.png">
+		<div class="preview">
+		</div>
+		<div class="hover"></div>
+		<div class="projectContent" data-project-has-app="true" data-project-img="http://creativeda.sh/beta/public/img/projects/icons/relaxpod.png"  data-project-url-link="http://creativeda.sh" data-project-url-text="creativeda.sh">
+			<span class="project-title">RelaxPod</span>
+			<p class="project-details">CreativeDash Experimental Project</p>
+			<span class="client-title">Client</span>
+			<p class="client-details">CreativeDash, LLC.</p>
+		</div>
+	</a>
+</article>
+<article data-categories="icons 3D">
+	<a href="#">
+		<img width="248" height="186" src="http://creativeda.sh/beta/public/img/projects/icons/school_thumb.png">
+		<div class="preview">
+		</div>
+		<div class="hover"></div>
+		<div class="projectContent" data-project-has-app="true" data-project-img="http://creativeda.sh/beta/public/img/projects/icons/school.png"  data-project-url-link="" data-project-url-text="">
+			<span class="project-title">Schoolbooks</span>
+			<p class="project-details">Publ is an app that allows easy reading of news publications and magazines.</p>
+			<span class="client-title">Client</span>
+			<p class="client-details">Publ</p>
+		</div>
+	</a>
+</article>
+<article data-categories="icons">
+	<a href="#">
+		<img width="248" height="186" src="http://creativeda.sh/beta/public/img/projects/icons/space_monitor_thumb.png">
+		<div class="preview">
+		</div>
+		<div class="hover"></div>
+		<div class="projectContent" data-project-has-app="true" data-project-img="http://creativeda.sh/beta/public/img/projects/icons/space_monitor.png"  data-project-url-link="http://creativeda.sh" data-project-url-text="creativeda.sh">
+			<span class="project-title">Space Monitor</span>
+			<p class="project-details">CreativeDash Experimental Project</p>
+			<span class="client-title">Client</span>
+			<p class="client-details">CreativeDash, LLC.</p>
+		</div>
+	</a>
+</article>
+<article data-categories="icons">
+	<a href="#">
+		<img width="248" height="186" src="http://creativeda.sh/beta/public/img/projects/icons/textit_thumb.png">
+		<div class="preview">
+		</div>
+		<div class="hover"></div>
+		<div class="projectContent" data-project-has-app="true" data-project-img="http://creativeda.sh/beta/public/img/projects/icons/textit.png"  data-project-url-link="" data-project-url-text="">
+			<span class="project-title">Textit</span>
+			<p class="project-details">Textit is an advanced messaging service that allows text, voice, and picture messaging, as well as file-sharing.</p>
+			<span class="client-title">Client</span>
+			<p class="client-details">Publ</p>
+		</div>
+	</a>
+</article>
+<article data-categories="icons 3D">
+	<a href="#">
+		<img width="248" height="186" src="http://creativeda.sh/beta/public/img/projects/icons/tire_thumb.png">
+		<div class="preview">
+		</div>
+		<div class="hover"></div>
+		<div class="projectContent" data-project-has-app="true" data-project-img="http://creativeda.sh/beta/public/img/projects/icons/tire.png"  data-project-url-link="http://www.toyota-global.com/" data-project-url-text="toyota-global.com">
+			<span class="project-title">3D Tire</span>
+			<p class="project-details">This was part of a package of web assets for Toyota USA.</p>
+			<span class="client-title">Client</span>
+			<p class="client-details">Toyota Motor Corporation</p>
+		</div>
+	</a>
+</article>
+<article data-categories="icons 3D">
+	<a href="#">
+		<img width="248" height="186" src="http://creativeda.sh/beta/public/img/projects/icons/vault_thumb.png">
+		<div class="preview">
+		</div>
+		<div class="hover"></div>
+		<div class="projectContent" data-project-has-app="true" data-project-img="http://creativeda.sh/beta/public/img/projects/icons/vault.png"  data-project-url-link="http://creativeda.sh" data-project-url-text="creativeda.sh">
+			<span class="project-title">SuperVault</span>
+			<p class="project-details">CreativeDash Experimental Project</p>
+			<span class="client-title">Client</span>
+			<p class="client-details">CreativeDash, LLC.</p>
+		</div>
+	</a>
+</article>
+<article data-categories="icons">
+	<a href="#">
+		<img width="248" height="186" src="http://creativeda.sh/beta/public/img/projects/icons/display_thumb.png">
+		<div class="preview">
+		</div>
+		<div class="hover"></div>
+		<div class="projectContent" data-project-has-app="true" data-project-img="http://creativeda.sh/beta/public/img/projects/icons/display.png"  data-project-url-link="http://creativeda.sh" data-project-url-text="creativeda.sh">
+			<span class="project-title">Display Frame</span>
+			<p class="project-details">CreativeDash Experimental Project</p>
+			<span class="client-title">Client</span>
+			<p class="client-details">CreativeDash, LLC.</p>
+		</div>
+	</a>
+</article>
+<article data-categories="ux">
+	<a href="#">
+		<img width="248" height="186" src="http://creativeda.sh/beta/public/img/projects/ui/helmetz_thumb.png">
+		<div class="preview">
+		</div>
+		<div class="hover"></div>
+		<div class="projectContent" data-project-has-app="true" data-project-img="http://creativeda.sh/beta/public/img/projects/ui/helmetz.png"  data-project-url-link="http://www.cwtv.com/" data-project-url-text="cwtv.com/">
+			<span class="project-title">Oh Sit!</span>
+			<p class="project-details">Our work for Oh Sit! consisted of numerous game assets. They were created in Maya, and the game was produced in Unity.</p>
+			<span class="client-title">Client</span>
+			<p class="client-details">The CW Television Network</p>
+		</div>
+	</a>
+</article>
+<article data-categories="ux">
+	<a href="#">
+		<img width="248" height="186" src="http://creativeda.sh/beta/public/img/projects/ui/hotel_finder_thumb.png">
+		<div class="preview">
+		</div>
+		<div class="hover"></div>
+		<div class="projectContent" data-project-has-app="true" data-project-img="http://creativeda.sh/beta/public/img/projects/ui/hotel_finder.png"  data-project-url-link="http://www.hynge.com/" data-project-url-text="hynge.com/">
+			<span class="project-title">Hynge</span>
+			<p class="project-details">One of the concepts for Hynge, a hotel-finder app, that makes searching for accomodations quicker and easier than ever before.</p>
+			<span class="client-title">Client</span>
+			<p class="client-details">Hynge, LLC.</p>
+		</div>
+	</a>
+</article>
+<article data-categories="ux">
+	<a href="#">
+		<img width="248" height="186" src="http://creativeda.sh/beta/public/img/projects/ui/luxury_thumb.png">
+		<div class="preview">
+		</div>
+		<div class="hover"></div>
+		<div class="projectContent" data-project-has-app="true" data-project-img="http://creativeda.sh/beta/public/img/projects/ui/luxury.png"  data-project-url-link="http://www.hynge.com/" data-project-url-text="hynge.com/">
+			<span class="project-title">Hynge</span>
+			<p class="project-details">One of the concepts for Hynge, a hotel-finder app, that makes searching for accomodations quicker and easier than ever before.</p>
+			<span class="client-title">Client</span>
+			<p class="client-details">Hynge, LLC.</p>
+		</div>
+	</a>
+</article>
+<article data-categories="ux">
+	<a href="#">
+		<img width="248" height="186" src="http://creativeda.sh/beta/public/img/projects/ui/rotix_thumb.png">
+		<div class="preview">
+		</div>
+		<div class="hover"></div>
+		<div class="projectContent" data-project-has-app="true" data-project-img="http://creativeda.sh/beta/public/img/projects/ui/rotix.png"  data-project-url-link="http://www.odinshammerapps.com/" data-project-url-text="odinshammerapps.com/">
+			<span class="project-title">Rotix</span>
+			<p class="project-details">Our work was redesigning the outdated user interface of Rotix, a puzzle game. We used simple, bright colors and a clean approach to produce a stunning, pixel-perfect UI.</p>
+			<span class="client-title">Client</span>
+			<p class="client-details">Odin's Hammer</p>
+		</div>
+	</a>
+</article>
+<article data-categories="ux">
+	<a href="#">
+		<img width="248" height="186" src="http://creativeda.sh/beta/public/img/projects/ui/snorelab_thumb.png">
+		<div class="preview">
+		</div>
+		<div class="hover"></div>
+		<div class="projectContent" data-project-has-app="true" data-project-img="http://creativeda.sh/beta/public/img/projects/ui/snorelab.png"  data-project-url-link="http://www.snorelab.com/" data-project-url-text="snorelab.com/">
+			<span class="project-title">SnoreLab</span>
+			<p class="project-details">SnoreLab was created to help people reduce their snoring. We incorporated a night/day mode to ease use in different environments.</p>
+			<span class="client-title">Client</span>
+			<p class="client-details">Reviva Softworks, Ltd.</p>
+		</div>
+	</a>
+</article>
+<article data-categories="ux">
+	<a href="#">
+		<img width="248" height="186" src="http://creativeda.sh/beta/public/img/projects/ui/storistic_mobile_thumb.png">
+		<div class="preview">
+		</div>
+		<div class="hover"></div>
+		<div class="projectContent" data-project-has-app="true" data-project-img="http://creativeda.sh/beta/public/img/projects/ui/storistic_mobile.png"  data-project-url-link="" data-project-url-text="">
+			<span class="project-title">Storistic</span>
+			<p class="project-details">The tagline of this app is simple, "It's the stories that make a difference". Built as a unique social app, Storistic highlights the importance of stories in our relationships. The UI focuses heavily on stories and timelines.</p>
+			<span class="client-title">Client</span>
+			<p class="client-details">Storistic, LLC.</p>
+		</div>
+	</a>
+</article>
+<article data-categories="ui web">
+	<a href="#">
+		<img width="248" height="186" src="http://creativeda.sh/beta/public/img/projects/ui/storistic_web_thumb.png">
+		<div class="preview">
+		</div>
+		<div class="hover"></div>
+		<div class="projectContent" data-project-has-app="true" data-project-img="http://creativeda.sh/beta/public/img/projects/ui/storistic_web.png"  data-project-url-link="" data-project-url-text="">
+			<span class="project-title">Storistic</span>
+			<p class="project-details">The tagline of this app is simple, "It's the stories that make a difference". Built as a unique social app, Storistic highlights the importance of stories in our relationships. The UI focuses heavily on stories within a timeline.</p>
+			<span class="client-title">Client</span>
+			<p class="client-details">Storistic, LLC.</p>
+		</div>
+	</a>
+</article>
+<article data-categories="ux">
+	<a href="#">
+		<img width="248" height="186" src="http://creativeda.sh/beta/public/img/projects/ui/switch_thumb.png">
+		<div class="preview">
+		</div>
+		<div class="hover"></div>
+		<div class="projectContent" data-project-has-app="true" data-project-img="http://creativeda.sh/beta/public/img/projects/ui/switch.png"  data-project-url-link="http://creativeda.sh" data-project-url-text="creativeda.sh">
+			<span class="project-title">Switch</span>
+			<p class="project-details">CreativeDash Experimental Project</p>
+			<span class="client-title">Client</span>
+			<p class="client-details">CreativeDash, LLC.</p>
+		</div>
+	</a>
+</article>
+<article data-categories="ux">
+	<a href="#">
+		<img width="248" height="186" src="http://creativeda.sh/beta/public/img/projects/ui/totalpay_thumb.png">
+		<div class="preview">
+		</div>
+		<div class="hover"></div>
+		<div class="projectContent" data-project-has-app="true" data-project-img="http://creativeda.sh/beta/public/img/projects/ui/totalpay.png"  data-project-url-link="" data-project-url-text="">
+			<span class="project-title">Totalpay</span>
+			<p class="project-details">Totalpay is an app that calculates salaries for positions in all of the US Military branches.</p>
+			<span class="client-title">Client</span>
+			<p class="client-details">Totalpay, LLC.</p>
+		</div>
+	</a>
+</article>
+<article data-categories="ux">
+	<a href="#">
+		<img width="248" height="186" src="http://creativeda.sh/beta/public/img/projects/ui/whatsonsale_thumb.png">
+		<div class="preview">
+		</div>
+		<div class="hover"></div>
+		<div class="projectContent" data-project-has-app="true" data-project-img="http://creativeda.sh/beta/public/img/projects/ui/whatsonsale.png"  data-project-url-link="" data-project-url-text="">
+			<span class="project-title">What's On Sale?</span>
+			<p class="project-details">"What's On Sale?" is a coupon app that rewards users. It allows gps location-based searches to show the closest retailers to the user.</p>
+			<span class="client-title">Client</span>
+			<p class="client-details">GKS Marketing</p>
+		</div>
+	</a>
+</article>
+<article data-categories="ux">
+	<a href="#">
+		<img width="248" height="186" src="http://creativeda.sh/beta/public/img/projects/ui/whatsonsale_wireframe_thumb.png">
+		<div class="preview">
+		</div>
+		<div class="hover"></div>
+		<div class="projectContent" data-project-has-app="true" data-project-img="http://creativeda.sh/beta/public/img/projects/ui/whatsonsale_wireframe.png"  data-project-url-link="" data-project-url-text="">
+			<span class="project-title">What's On Sale?</span>
+			<p class="project-details">"What's On Sale?" is a coupon app that rewards users. It allows gps location-based searches to show the closest retailers to the user.</p>
+			<span class="client-title">Client</span>
+			<p class="client-details">GKS Marketing</p>
+		</div>
+	</a>
+</article>
+<article data-categories="ui">
+	<a href="#">
+		<img width="248" height="186" src="http://creativeda.sh/beta/public/img/projects/ui/portfolio_thumb.png">
+		<div class="preview">
+		</div>
+		<div class="hover"></div>
+		<div class="projectContent" data-project-has-app="true" data-project-img="http://creativeda.sh/beta/public/img/projects/ui/portfolio.png"  data-project-url-link="http://creativeda.sh" data-project-url-text="creativeda.sh">
+			<span class="project-title">Portfolio</span>
+			<p class="project-details">CreativeDash Experimental Project. This was a concept of an iOS portfolio app for CreativeDash.</p>
+			<span class="client-title">Client</span>
+			<p class="client-details">CreativeDash, LLC.</p>
+		</div>
+	</a>
+</article>
+<article data-categories="concept">
+	<a href="#">
+		<img width="248" height="186" src="http://creativeda.sh/beta/public/img/projects/concept/roadside_thumb.png">
+		<div class="preview">
+		</div>
+		<div class="hover"></div>
+		<div class="projectContent" data-project-has-app="true" data-project-img="http://creativeda.sh/beta/public/img/projects/concept/roadside.png"  data-project-url-link="http://www.toyota-global.com/" data-project-url-text="toyota-global.com">
+			<span class="project-title">Roadside Assistance</span>
+			<p class="project-details">A set of concepts of icons for roadside assistance.</p>
+			<span class="client-title">Client</span>
+			<p class="client-details">Toyota Motor Corporation</p>
+		</div>
+	</a>
+</article>
+<article data-categories="ui">
+	<a href="#">
+		<img width="248" height="186" src="http://creativeda.sh/beta/public/img/projects/ui/sports_center_thumb.png">
+		<div class="preview">
+		</div>
+		<div class="hover"></div>
+		<div class="projectContent" data-project-has-app="true" data-project-img="http://creativeda.sh/beta/public/img/projects/ui/sports_center.png"  data-project-url-link="" data-project-url-text="">
+			<span class="project-title">SportCenter</span>
+			<p class="project-details">A new take on sports, still in its experimental stages. In the wireframes we are planning over 100 screens.</p>
+			<span class="client-title">Client</span>
+			<p class="client-details">Experimental</p>
+		</div>
+	</a>
+</article>
+<article data-categories="ui">
+	<a href="#">
+		<img width="248" height="186" src="http://creativeda.sh/beta/public/img/projects/ui/primal_ui_thumb.png">
+		<div class="preview">
+		</div>
+		<div class="hover"></div>
+		<div class="projectContent" data-project-has-app="true" data-project-img="http://creativeda.sh/beta/public/img/projects/ui/primal_ui.png"  data-project-url-link="" data-project-url-text="">
+			<span class="project-title">Primal</span>
+			<p class="project-details">Primal is a social networking app based on video sharing. The innovative UI was built all around images.</p>
+			<span class="client-title">Client</span>
+			<p class="client-details">Primal, Ltd.</p>
+		</div>
+	</a>
+</article>
+<article data-categories="ui">
+	<a href="#">
+		<img width="248" height="186" src="http://creativeda.sh/beta/public/img/projects/ui/groups_thumb.png">
+		<div class="preview">
+		</div>
+		<div class="hover"></div>
+		<div class="projectContent" data-project-has-app="true" data-project-img="http://creativeda.sh/beta/public/img/projects/ui/groups.png"  data-project-url-link="" data-project-url-text="">
+			<span class="project-title">Groups</span>
+			<p class="project-details">CreativeDash Experimental Project.</p>
+			<span class="client-title">Client</span>
+			<p class="client-details">CreativeDash, LLC.</p>
+		</div>
+	</a>
+</article>
+<article data-categories="ui">
+	<a href="#">
+		<img width="248" height="186" src="http://creativeda.sh/beta/public/img/projects/ui/switch_ui_thumb.png">
+		<div class="preview">
+		</div>
+		<div class="hover"></div>
+		<div class="projectContent" data-project-has-app="true" data-project-img="http://creativeda.sh/beta/public/img/projects/ui/switch_ui.png"  data-project-url-link="" data-project-url-text="">
+			<span class="project-title">What's on Sale?</span>
+			<p class="project-details">"What's On Sale?" is a coupon app that rewards users. It allows gps location-based searches to show the closest retailers to the user.</p>
+			<span class="client-title">Client</span>
+			<p class="client-details">GKS Marketing</p>
+		</div>
+	</a>
+</article>
+<article data-categories="icons">
+	<a href="#">
+		<img width="248" height="186" src="http://creativeda.sh/beta/public/img/projects/icons/island_thumb.png">
+		<div class="preview">
+		</div>
+		<div class="hover"></div>
+		<div class="projectContent" data-project-has-app="true" data-project-img="http://creativeda.sh/beta/public/img/projects/icons/island.png"  data-project-url-link="" data-project-url-text="">
+			<span class="project-title">The Island</span>
+			<p class="project-details">CreativeDash Experimental Project.</p>
+			<span class="client-title">Client</span>
+			<p class="client-details">CreativeDash, LLC.</p>
+		</div>
+	</a>
+</article>
+<article data-categories="icons 3d">
+	<a href="#">
+		<img width="248" height="186" src="http://creativeda.sh/beta/public/img/projects/icons/fonelink_thumb.png">
+		<div class="preview">
+		</div>
+		<div class="hover"></div>
+		<div class="projectContent" data-project-has-app="true" data-project-img="http://creativeda.sh/beta/public/img/projects/icons/fonelink.png"  data-project-url-link="" data-project-url-text="">
+			<span class="project-title">Fonelink</span>
+			<p class="project-details">Fonelink is an app that allows for easy sending of SMS from your computer, through your smartphone.</p>
+			<span class="client-title">Client</span>
+			<p class="client-details">Bluestacks</p>
+		</div>
+	</a>
+</article>
+<article data-categories="ui">
+	<a href="#">
+		<img width="248" height="186" src="http://creativeda.sh/beta/public/img/projects/ui/blackbook_thumb.png">
+		<div class="preview">
+		</div>
+		<div class="hover"></div>
+		<div class="projectContent" data-project-has-app="true" data-project-img="http://creativeda.sh/beta/public/img/projects/ui/blackbook.png"  data-project-url-link="" data-project-url-text="">
+			<span class="project-title">Blackbook</span>
+			<p class="project-details">Blackbook is a secure organizer for contacts, passwords, media, and social feeds.</p>
+			<span class="client-title">Client</span>
+			<p class="client-details">{N/A}</p>
+		</div>
+	</a>
+</article>
+<article data-categories="icons 3d">
+	<a href="#">
+		<img width="248" height="186" src="http://creativeda.sh/beta/public/img/projects/icons/direction_thumb.png">
+		<div class="preview">
+		</div>
+		<div class="hover"></div>
+		<div class="projectContent" data-project-has-app="true" data-project-img="http://creativeda.sh/beta/public/img/projects/icons/direction.png"  data-project-url-link="" data-project-url-text="">
+			<span class="project-title">Direction</span>
+			<p class="project-details">CreativeDash Experimental Project</p>
+			<span class="client-title">Client</span>
+			<p class="client-details">CreativeDash, LLC</p>
+		</div>
+	</a>
+</article>
+<article data-categories="icons">
+	<a href="#">
+		<img width="248" height="186" src="http://creativeda.sh/beta/public/img/projects/icons/icons_thumb.png">
+		<div class="preview">
+		</div>
+		<div class="hover"></div>
+		<div class="projectContent" data-project-has-app="true" data-project-img="http://creativeda.sh/beta/public/img/projects/icons/icons.png"  data-project-url-link="" data-project-url-text="">
+			<span class="project-title">Icons</span>
+			<p class="project-details">CreativeDash Experimental Project</p>
+			<span class="client-title">Client</span>
+			<p class="client-details">CreativeDash, LLC</p>
+		</div
+				></a>
+</article>
+<article data-categories="ui">
+	<a href="#">
+		<img width="248" height="186" src="http://creativeda.sh/beta/public/img/projects/ui/covert_thumb.png">
+		<div class="preview">
+		</div>
+		<div class="hover"></div>
+		<div class="projectContent" data-project-has-app="true" data-project-img="http://creativeda.sh/beta/public/img/projects/ui/covert.png"  data-project-url-link="" data-project-url-text="">
+			<span class="project-title">Covert</span>
+			<p class="project-details">Covert is an app for private messaging, voicemail, email, and contact storage</p>
+			<span class="client-title">Client</span>
+			<p class="client-details">{N/A}</p>
+		</div>
+	</a>
+</article>
+<article data-categories="ui">
+	<a href="#">
+		<img width="248" height="186" src="http://creativeda.sh/beta/public/img/projects/ui/fonelink_ui_thumb.png">
+		<div class="preview">
+		</div>
+		<div class="hover"></div>
+		<div class="projectContent" data-project-has-app="true" data-project-img="http://creativeda.sh/beta/public/img/projects/ui/fonelink_ui.png"  data-project-url-link="" data-project-url-text="">
+			<span class="project-title">Fonelink</span>
+			<p class="project-details">Fonelink is an app that allows for easy sending of SMS from your computer, through your smartphone.</p>
+			<span class="client-title">Client</span>
+			<p class="client-details">Bluestacks</p>
+		</div>
+	</a>
+</article>
+
+
+
+<!--
+PORTFOLIO/OUR WORK - CONTENT - END
+-->
+</div>
+</section>
+<section id="about" class="portfolioListing fn-portfolioListing fn-portfolioListing-show-after" data-rel-list="app-master-list2" data-cat="2">
+<nav>
+	<span class="title">THE STUDIO</span>
+	<ul class="portfolio-filters">
+		<li><a data-category="services" class="active">Services</a></li>
+		<li><a data-category="clients">Clients</a></li>
+		<!--
+		TEAM - FILTER - END
+		If you want to activate the TEAM section juste remove 'style="display:none"' in the line below
+		When it's remove you can add content below and use the keyword 'team' to link the content to this section
+		-->
+		<li><a data-category="team" style="display:none">Team</a></li>
+		<!--
+		TEAM - FILTER - END
+		-->
+	</ul>
+</nav>
+<div class="portfolioCarrousel fn-portfolioCarrousel" data-ajust-height="dynamic"></div>
+
+<div class="portfolioCarrousel_nav_wrapper">
+	<div class="portfolioCarrousel_nav"></div>
+	<a href="#" class="carrousel_prev page-button-disabled" data-page="0">Prev</a>
+	<a href="#" class="carrousel_next" data-page="2">Next</a>
+</div>
+
+<div class="portfolioListing-after fn-portfolioListing-after" style="display:none;">
+</div>
+
+<div id="app-master-list2" class="hidden">
+<!--
+ABOUT/THE STUDIO - CONTENT - START
+If you want to add a filter/category you have to add the fallowing:
+<article data-categories="[CATEGORY ID]">
+	<a href="#">
+		<div class="preview"></div>
+		<img width="248" height="186" src="[PATH YO YOUR THUMBNAIL]">
+		<div class="projectContent">
+			<span class="title">[ITEM TITLE]</span>
+			<p class="details">[ITEM DESCRIPTION]</p>
+		</div>
+	</a>
+</article>
+
+[CATEGORY ID] - In this case you have to put either  "services" or "clients". When TEAM is activated use the keyword 'team'
+[PATH YO YOUR THUMBNAIL]
+[ITEM TITLE] - leave it empty if you don't need it
+[ITEM DESCRIPTION] - leave it empty if you don't need it
+-->
+
+
+<!-- This is an example -->
+<article data-categories="services">
+	<a href="#">
+		<div class="preview"></div>
+		<img width="248" height="186" src="http://creativeda.sh/beta/public/img/services/1.png"/>
+		<div class="projectContent">
+			<span class="title">UX Design</span>
+			<p class="details">Great UX is about more than just looking nice - it is about feeling right and making the user an integral part of an experience. Too much going on and it distracts the user - too little, they struggle to figure out how to use it; there is a certain balance to it all. This is something we truly understand and implement into every app or website that we design.</p>
+		</div>
+	</a>
+</article>
+<article data-categories="services">
+	<a href="#">
+		<div class="preview"></div>
+		<img width="248" height="186" src="http://creativeda.sh/beta/public/img/services/2.png"/>
+		<div class="projectContent">
+			<span class="title">Mobile Design</span>
+			<p class="details">In the last five years, portable computing has been revolutionized by smartphones; industry is struggling to keep pace with the growing demand for mobile entertainment. Responsive web design is one of the innovative approaches to unifying and consolidating web content to natively support a growing multitude of devices. We do that.</p>
+		</div>
+	</a>
+</article>
+<article data-categories="services">
+	<a href="#">
+		<div class="preview"></div>
+		<img width="248" height="186" src="http://creativeda.sh/beta/public/img/services/3.png"/>
+		<div class="projectContent">
+			<span class="title">Mobile Development</span>
+			<p class="details">With Apple recently announcing over 40 billion downloads from the App Store, many developers are struggling to stay relevant in this competitive market. We understand the trends well and implement the latest coding techniques and methods into our work to ensure optimal app performance and ultimate user satisfaction.</p>
+		</div>
+	</a>
+</article>
+<article data-categories="services">
+	<a href="#">
+		<div class="preview"></div>
+		<img width="248" height="186" src="http://creativeda.sh/beta/public/img/services/4.png"/>
+		<div class="projectContent">
+			<span class="title">Icon Design</span>
+			<p class="details">An app icon is the face of an app just as a book cover is the face of a book. Even though people try to teach themselves to not to judge a book by its cover, it is still a very simple and efficient way to quickly assess something. We produce a very clear and attractive "face" for your app, which intrigues a potential user and entices them to download!</p>
+		</div>
+	</a>
+</article>
+<article data-categories="services">
+	<a href="#">
+		<div class="preview"></div>
+		<img width="248" height="186" src="http://creativeda.sh/beta/public/img/services/5.png"/>
+		<div class="projectContent">
+			<span class="title">3D and Animation</span>
+			<p class="details">Visual effects have been an integral part of the movie industry for decades; it is something that attracts people and can be used to tell stories that are impossible in our physical world. Because of its intriguing nature, 3D and animation are effective tools that we use to captivate the hearts and minds of your audience.</p>
+		</div>
+	</a>
+</article>
+<article data-categories="services">
+	<a href="#">
+		<div class="preview"></div>
+		<img width="248" height="186" src="http://creativeda.sh/beta/public/img/services/6.png"/>
+		<div class="projectContent">
+			<span class="title">Branding and Identity</span>
+			<p class="details">Every new business starts with a dilemma - how do we get recognized? You need people to remember your name, remember your image, and associate that with your great product or service. Establishing an identity isn't an easy task. Whether you are a start-up building an identity or an established company looking to refresh, we sure can help!</p>
+		</div>
+	</a>
+</article>
+<article data-categories="clients">
+	<a href="#">
+		<div class="preview"></div>
+		<img width="248" height="186" src="http://creativeda.sh/beta/public/img/clients/nike.png">
+		<div class="projectContent">
+			<span class="title">Nike</span>
+			<p class="details">An American multinational corporation, Nike Inc. is the world's leading supplier of athletic shoes and apparel.</p>
+		</div>
+	</a>
+</article>
+<article data-categories="clients">
+	<a href="#">
+		<div class="preview"></div>
+		<img width="248" height="186" src="http://creativeda.sh/beta/public/img/clients/hasbro1.png">
+		<div class="projectContent">
+			<span class="title">Hasbro</span>
+			<p class="details">Hasbro produces toys under the popular Star Wars, My Little Pony, Transformers, and Playskool brands.</p>
+		</div>
+	</a>
+</article>
+<article data-categories="clients">
+	<a href="#">
+		<div class="preview"></div>
+		<img width="248" height="186" src="http://creativeda.sh/beta/public/img/clients/toyota.png">
+		<div class="projectContent">
+			<span class="title">Toyota</span>
+			<p class="details">Toyota Motor Corporation, based in Toyota, Aichi, Japan, is one of the top three automobile manufacturers in the world.</p>
+		</div>
+	</a>
+</article>
+<article data-categories="clients">
+	<a href="#">
+		<div class="preview"></div>
+		<img width="248" height="186" src="http://creativeda.sh/beta/public/img/clients/squarespace.png">
+		<div class="projectContent">
+			<span class="title">Squarespace</span>
+			<p class="details">Squarespace is a popular CMS that brings ease of use and beautiful templates together to create stunning websites.</p>
+		</div>
+	</a>
+</article>
+<article data-categories="clients">
+	<a href="#">
+		<div class="preview"></div>
+		<img width="248" height="186" src="http://creativeda.sh/beta/public/img/clients/saatchi.png">
+		<div class="projectContent">
+			<span class="title">Saatchi & Saatchi</span>
+			<p class="details">Saatchi & Saatchi is a global advertising agency network with 140 offices in 76 countries and over 6,500 staff.</p>
+		</div>
+	</a>
+</article>
+</article>
+<article data-categories="clients">
+	<a href="#">
+		<div class="preview"></div>
+		<img width="248" height="186" src="http://creativeda.sh/beta/public/img/clients/cw_network.png">
+		<div class="projectContent">
+			<span class="title">The CW Television Network</span>
+			<p class="details">The CW Television Network is a joint venture between CBS Corporation and Warner Bros. Entertainment.</p>
+		</div>
+	</a>
+</article>
+<article data-categories="clients">
+	<a href="#">
+		<div class="preview"></div>
+		<img width="248" height="186" src="http://creativeda.sh/beta/public/img/clients/realmac_software.png">
+		<div class="projectContent">
+			<span class="title">Realmac Software</span>
+			<p class="details">Realmac Software is a design and development studio that prides itself on building delightful apps like Clear for iOS.</p>
+		</div>
+	</a>
+</article>
+<article data-categories="clients">
+	<a href="#">
+		<div class="preview"></div>
+		<img width="248" height="186" src="http://creativeda.sh/beta/public/img/clients/bkwld.png">
+		<div class="projectContent">
+			<span class="title">BKWLD</span>
+			<p class="details">BKLWD is an independent digital agency with offices in Seattle and Sacramento (just 30 minutes away from CreativeDash).</p>
+		</div>
+	</a>
+</article>
+<article data-categories="clients">
+	<a href="#">
+		<div class="preview"></div>
+		<img width="248" height="186" src="http://creativeda.sh/beta/public/img/clients/chaoticmoon.png">
+		<div class="projectContent">
+			<span class="title">Chaotic Moon</span>
+			<p class="details">Chaotic is a digital agency serving corporate clients like Nvidia, Whole Foods, Nike, Atari, and Best Buy.</p>
+		</div>
+	</a>
+</article>
+<article data-categories="clients">
+	<a href="#">
+		<div class="preview"></div>
+		<img width="248" height="186" src="http://creativeda.sh/beta/public/img/clients/borshoff.png">
+		<div class="projectContent">
+			<span class="title">Borshoff</span>
+			<p class="details">Borshoff is an advertising, branding and public relations agency headquartered in Indianapolis, Indiana, USA.</p>
+		</div>
+	</a>
+</article>
+<article data-categories="clients">
+	<a href="#">
+		<div class="preview"></div>
+		<img width="248" height="186" src="http://creativeda.sh/beta/public/img/clients/ipont_software.png">
+		<div class="projectContent">
+			<span class="title">iPont Software</span>
+			<p class="details">iPont Software is a team of developers and photographers that work to enhance the photo viewing experience on iOS.</p>
+		</div>
+	</a>
+</article>
+<article data-categories="clients">
+	<a href="#">
+		<div class="preview"></div>
+		<img width="248" height="186" src="http://creativeda.sh/beta/public/img/clients/wieden+kennedy.png">
+		<div class="projectContent">
+			<span class="title">Wieden+Kennedy</span>
+			<p class="details">Wieden+Kennedy is one of the largest independently-owned advertising agencies in the world.</p>
+		</div>
+	</a>
+</article>
+
+
+
+
+<!--
+ABOUT/THE STUDIO - CONTENT - END
+-->
+</div>
+</section>
+
+<section id="contact" class="contact fn-contact enhance" data-enhance="contact">
+	<nav>
+		<span class="title">REACH OUT</span>
+		<ul class="contact-filters">
+			<li><a class="active" rel="service">Service Inquiry</a></li>
+			<li><a rel="hello">Say Hello</a></li>
+		</ul>
+	</nav>
+	<form class="form" data-form-type="service">
+		<div class="field">
+			<label for="name" class="hidden">Full name</label>
+			<input id="name" name="name" type="text" placeholder="Full name" value="">
+			<div class="dot"></div>
+		</div>
+		<div class="field odd">
+			<label for="company" class="hidden">Company name</label>
+			<input id="company" name="company" type="text" placeholder="Company name" value="">
+			<div class="dot"></div>
+		</div>
+		<div class="field emailctn">
+			<label for="email" class="hidden">Email address</label>
+			<input id="email" name="email" type="text" placeholder="Email address" value="">
+			<div class="dot">Invalid Email</div>
+		</div>
+		<div id="budgetField" class="field odd clearfix" data-enhance="customSelect">
+			<label>Budget range</label>
+
+			<input type="radio" name="budget" id="r1" value="$5,000 - $10,000" checked>
+			<label for="r1" class="radio"><span class="big"><span class="small"></span></span>$5,000 - 10,000</label>
+			<input type="radio" name="budget" id="r2" value="$10,001 - $25,000">
+			<label for="r2" class="radio"><span class="big"><span class="small"></span></span>$10,001 - 25,000</label>
+			<input type="radio" name="budget" id="r3" value="$25,001 - $50,000">
+			<label for="r3" class="radio"><span class="big"><span class="small"></span></span>$25,001 - 50,000+</label>
+		</div>
+		<div class="field">
+			<label for="desc" class="hidden">Project description</label>
+			<textarea name="desc" id="desc" placeholder="Project description"></textarea>
+			<textarea name="msg" id="msg" placeholder="Your message"></textarea>
+			<div class="dot"></div>
+		</div>
+
+		<div class="wrapper">
+			<span class="required-note"><div class="dot2"></div>All field required.</span>
+			<button type="submit" disabled>Submit</button>
+		</div>
+	</form>
+	<div class="popup" id="thankyou">
+		<div class="popupwrapper">
+			<h2>Thank You!</h2>
+			<p>Thanks much for reaching out and expressing your interest in Creativedash. We promise to get in touch with you shortly.</p>
+			<span class="note">(Click anywhere or wait a few seconds to go back)</span>
+		</div>
+	</div>
+</section>
+<div id="portfolio-overlay" class="portfolio-overlay fn-portfolio-overlay">
+	<div class="overlay-content">
+		<nav>
+			<a href="#" class="overlay-prev"><span class="caption">Prev</span><span class="hover"></span></a>
+			<a href="#" class="back-to-grid"><span class="caption">Back to Grid</span><span class="hover"></span></a>
+			<a href="#" class="overlay-next"><span class="caption">Next</span><span class="hover"></span></a>
+		</nav>
+
+		<div class="overlay-detail"></div>
+		<!--  <a href="#" class="app-store-link">Get this app the App on App Store</a> -->
+	</div>
+	<div class="overlay-img"><img src="http://creativeda.sh/beta/public/img/dummy-overlay.jpg" width="744" height="558"></div>
+</div>
+</section>
+</div>
+
+<footer><small>&copy; Copyright 2013 CreativeDash | All Rights Reservedsmall></footer>
+
+<div class="cache cache-left"></div>
+<div class="cache cache-right"></div>
+</div>
+
+<div id="overlay"></div>
+<div class="popup" id="mobile">
+	<div class="popupwrapper">
+		<div class="logo">
+			<a href="#home"><img src="http://creativeda.sh/beta/public/img/logo-simple-@2x.png" alt="Creative Dash logo." width="70"></a>
+		</div>
+		<h2>Coming Soon</h2>
+		<p>We are working hard to bring you the mobile version of our site. Please check back again soon.</p>
+		<a href="mailto:test@test.com" class="mail">Send us a message</a>
+	</div>
+</div>
+<script src="public/js/combo.js?v=1"></script>
+<!--<script src="public/js/combo.min.js?v=1"></script>-->
+</body>
+</html>

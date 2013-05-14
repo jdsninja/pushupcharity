@@ -1,0 +1,200 @@
+// Responsive: Large desktop and up
+// --------------------------------------------------
+
+@media only screen and (max-width: 959px) {
+	.wrapper {
+		width: auto;
+		padding: 0 5%;
+		.box-sizing(border-box);
+	}
+
+	// Videos
+	.video-border {
+		width: 700px;
+		margin: 0 auto;
+		padding-top:60px;
+		iframe {
+			width: 500px;
+			height: 281px;
+
+			width: 700px;
+			height: 393px;
+		}
+	}
+
+	// Decorations
+	.triangle {
+		margin-left: -18px;
+		margin-top: -12.5px;
+		width: 25px;
+		height: 25px;
+		top: 100%;
+		.transition(all .4s);
+	}
+
+	// Actions
+	#actions {
+		height: auto;
+		header {
+			padding: 60px 0;
+		}
+		article {
+			float: none;
+			width: auto;
+			.clearfix;
+			margin-top: 30px;
+			padding: 15px;
+			margin-left: 0;
+			padding-left: 30px;
+
+			.icon, .infos {
+				float: left
+			}
+			.icon {
+				margin-top: 0;
+			}
+			.icon-border-wrapper {
+				display: none;
+			}
+			.infos {
+				padding-left: 10%;
+				width: 45%;
+			}
+			.btn {
+				top: 0;
+			}
+			p{
+				height: auto;
+				font-size: 18px;
+				line-height: 25px;
+				padding-bototm:20px;
+			}
+		}
+	}
+
+	//infos
+	#infos {
+		.asset {
+			display: none
+		}
+		.blocka, .blockb {
+			position: static;
+			top: 0;
+			left: 0;
+			width: auto;
+
+		}
+		.blocka {
+			padding-bottom: 60px;
+		}
+		.blockb {
+			padding-top: 0;
+
+		}
+	}
+
+	// Sponsors
+	#sponsors {
+		padding-top: 60px;
+	}
+
+	.slides img {
+		width: 140px;
+	}
+
+	// Contacts
+
+	#form {
+		float: none;
+		width: auto;
+	}
+
+	#twitter {
+		display: none;
+	}
+}
+
+@media only screen and (max-width:700px) {
+	// Actions
+	#actions {
+		article {
+			.infos {
+				padding-left: 5%;
+				width:45%;
+			}
+		}
+	}
+
+	// Videos
+	#video {
+		padding-top: 30px;
+	}
+
+	.video-border {
+		width: 500px;
+		margin: 0 auto;
+
+		iframe {
+			width: 500px;
+			height: 281px;
+
+		}
+	}
+
+	// Logo
+	#logo {
+		background: none;
+		height: 203px;
+	}
+
+	// Sponsors
+	.slides img {
+		width: 100px;
+	}
+
+	// Contacts
+	#contact {
+		input#name,
+		input#email {
+			width: 100%;
+			margin-right: 0;
+			display: block
+		}
+		input#email {
+			margin-top: 20px;
+		}
+	}
+}
+
+@media only screen and (max-width:510px) {
+
+	// Actions
+	#actions {
+		article {
+			.icon {
+				float: none;
+				display: inline-block
+			}
+			.btn {
+				top: 0;
+			}
+			.infos {
+				padding-left: 0;
+				width: 100%;
+			}
+		}
+	}
+
+	// Videos
+	.video-border {
+		width: 352px;
+		margin: 0 auto;
+
+		iframe {
+			width: 352px;
+			height: 198px;
+
+		}
+	}
+
+}
