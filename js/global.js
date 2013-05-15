@@ -40,12 +40,12 @@ $(function () {
 	window.onload = function () {
 		//var headers = document.querySelectorAll('#docs h2, #guide h1');
 		if(Screen_width > 959){
-			var menu = document.getElementById('actions');
+			var menu = document.getElementById('block3');
 			if(menu !== null){
-				var init = menu.offsetTop  + 560;
+				var init = menu.offsetTop  + 760;
 				var docked;
 				window.onscroll = function () {
-					if (!docked && ((menu.offsetTop + 560) - scrollTop() < 0)) {
+					if (!docked && ((menu.offsetTop + 760) - scrollTop() < 0)) {
 						$(".validation input").blur();
 						$("#actionCtn").addClass('docked');
 						$("#actionCtn").css('top','-100px').animate({top:0});

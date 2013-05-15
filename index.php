@@ -33,9 +33,26 @@
 	<div class="asset"></div>
 	<a href="#" class="logo"><img src="img/logo-pushup-charity.png" alt=""></a>
 </section>
-<section id="actions">
+<div id="block3">
+	<section class="competitors">
 		<header>
 			<h1>Startups do pushups for charity!</h1>
+		</header>
+		<ul>
+			<li>
+				<a href="http://taskrabbit.com" target="_blank" title="Task Rabbit - Task &amp; Errand Service By Awesome, Trustworthy People"><img src="img/competitors/taskrabbit.png" alt="Task Rabbit logo" border="0"></a>
+			</li>
+			<li>
+				<a href="http://github.com" target="_blank" title="Github - Build software better, together"><img src="img/competitors/github.png" alt="Github logo" border="0"></a>
+			</li>
+			<li>
+				<a href="http://99designs.ca" target="_blank" title="99 Designs - Design done differently"><img src="img/competitors/99designs.png" alt="99 Designs logo" border="0"></a>
+			</li>
+		</ul>
+	</section>
+	<section class="actions">
+		<header>
+			<h1>Do something!</h1>
 		</header>
 		<div class="wrapper">
 			<article class="blocka">
@@ -137,12 +154,13 @@
 		</div>
 	</div>
 </section>
+</div>
 <section id="infos">
 	<div class="wrapper">
 		<article class="block blocka">
 			<h1>Where & when?</h1>
 			<p class="big"><a href="https://maps.google.ca/maps?q=111+Minna+Gallery&fb=1&gl=ca&hq=111+Minna+Gallery&cid=0,0,13067323715644860555&t=m&z=16&iwloc=A" target="_blank" title="Click to see 111 Minna Gallery on google map.">111 Minna Gallery</a> on <br>Thursday June 27 @ 6pm.</p>
-			<p>The fantabulous folks at <a href="https://maps.google.ca/maps?q=111+Minna+Gallery&fb=1&gl=ca&hq=111+Minna+Gallery&cid=0,0,13067323715644860555&t=m&z=16&iwloc=A" target="_blank" title="Click to see 111 Minna Gallery on google map.">111 Minna Gallery</a> have donated their space for this event. You can buy drinks at the bar drinks and snacks provided. All the fun people will be there, so you should be too...</p>
+			<p>The fantabulous folks at 111 Minna Gallery have donated their space for this event. You can buy drinks at the bar drinks and snacks provided. All the fun people will be there, so you should be too...</p>
 		</article>
 		<article class="block blockb">
 			<h1>How it works?</h1>
@@ -167,19 +185,41 @@
 <section id="sponsors">
 	<div class="wrapper">
 		<div class="triangle"></div>
-		<h1>Competitors</h1>
+		<h2>Charities</h2>
 		<div id="slideshow">
 			<button class="btn prev" style="display:none"><span class="caption">Previous</span></button>
 			<div class="slides">
 				<ul>
-					<li>
-						<a href="http://taskrabbit.com" target="_blank" title="Task Rabbit - Task &amp; Errand Service By Awesome, Trustworthy People"><img src="img/competitors/taskrabbit.png" alt="Task Rabbit logo" border="0"></a>
+					<li class="height">
+						<a href="https://zip.kiva.org/" target="_blank" title="Kiva Zip - Innovations in person-to-person lending"><img src="img/charities/kivazip.png" alt="Kiva Zip logo" border="0"></a>
 					</li>
-					<li>
-						<a href="http://github.com" target="_blank" title="Github - Build software better, together"><img src="img/competitors/github.png" alt="Github logo" border="0"></a>
+					<li class="height">
+						<a href="http://www.muttville.org/" target="_blank" title="Muttville"><img src="img/charities/muttville.png" alt="Muttville logo" border="0"></a>
 					</li>
-					<li>
-						<a href="http://99designs.ca" target="_blank" title="99 Designs - Design done differently"><img src="img/competitors/99designs.png" alt="99 Designs logo" border="0"></a>
+					<li class="width">
+						<a href="http://samasource.org/" target="_blank" title="Samasource"><img src="img/charities/samasource.png" alt="Samasource logo" border="0"></a>
+					</li>
+					<li class="height">
+						<a href="http://www.sffoodbank.org/" target="_blank" title="San Francisco and Marin Food Banks"><img src="img/charities/sffoodbank.png" alt="San Francisco and Marin Food Banks logo" border="0"></a>
+					</li>
+				</ul>
+			</div>
+			<button class="btn next" style="display:none;"><span class="caption">Next</span></button>
+		</div>
+
+		<h2>Sponsors</h2>
+		<div id="slideshow">
+			<button class="btn prev" style="display:none"><span class="caption">Previous</span></button>
+			<div class="slides">
+				<ul>
+					<li class="height">
+						<a href="http://www.111minnagallery.com/" target="_blank" title="111 Minna Gallery"><img src="img/sponsors/111minagallery.png" alt="111 Minna Gallery logo" border="0"></a>
+					</li>
+					<li class="height">
+						<a href="http://wpengine.com/" target="_blank" title="WP Engine -  WordPress Hosting and Managed WordPress Hosting"><img src="img/sponsors/wpengine.png" alt="WP Engine logo" border="0"></a>
+					</li>
+					<li class="height">
+						<a href="http://fakt.ca/" target="_blank" title="Fakt - Creative Consulting"><img src="img/sponsors/fakt.png" alt="Fakt logo" border="0"></a>
 					</li>
 				</ul>
 			</div>
@@ -223,7 +263,6 @@
 				<li><a href="#"><img src="img/gallery/user_34.jpg" alt=""></a></li>
 				<li><a href="#"><img src="img/gallery/user_35.jpg" alt=""></a></li>
 				<li><a href="#"><img src="img/gallery/user_36.jpg" alt=""></a></li>
-				<li><a href="#"><img src="img/gallery/user_37.jpg" alt=""></a></li>
 				<li><a href="#"><img src="img/gallery/user_38.jpg" alt=""></a></li>
 				<li><a href="#"><img src="img/gallery/user_39.jpg" alt=""></a></li>
 				<li><a href="#"><img src="img/gallery/user_40.jpg" alt=""></a></li>
@@ -235,7 +274,7 @@
 	<section id="contact">
 		<div class="wrapper">
 			<section id="form">
-				<h1>Got questions about this crazy events?</h1>
+				<h1>Got questions about this crazy event?</h1>
 				<form id="formSubmitQuestions" action="#"  data-form-type="questions">
 					<label for="name">Name</label> <input id="name" name="name" type="text" placeholder="Name" required>
 					<label for="email">Mail</label>
@@ -293,7 +332,7 @@
 		<div class="wrapper">
 			<div class="copyright">&copy; Copyright 2013 Pushup Charity by</div>
 			<div class="fakt">
-				<a href="http://fakt.ca" target="_blank"><img src="img/logo-fakt.png" width="68" alt="Fakt" border="0"></a>
+				<a href="http://fakt.ca/" target="_blank"><img src="img/logo-fakt.png" width="68" alt="Fakt" border="0"></a>
 			</div>
 		</div>
 	</section>
