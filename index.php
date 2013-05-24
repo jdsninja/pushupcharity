@@ -77,7 +77,7 @@
 					<div class="icon-asset"></div>
 				</div>
 				<div class="infos">
-					<p>Does your start-up want to do pushups on stage and donate $2,500 (entry fee) to charity? You're awesome - we want YOU!!</p>
+					<p>Does your start-up want to do pushups on stage and donate to charity? You're awesome - we want YOU!!</p>
 					<button href="#applyToCompete" class="btn action" data-toggle="modal">Compete</button>
 				</div>
 			</article>
@@ -164,7 +164,7 @@
 		</article>
 		<article class="block blockb">
 			<h1>How it works?</h1>
-			<p>Imagine 8 startups in crazy costumes doing pushups on stage to a theme song like "The Final Countdown"...and all the funds raised go to charity. #Awesome</p>
+			<p>Imagine 5 startups in crazy costumes doing pushups on stage to a theme song like "The Final Countdown"...and all the funds raised go to charity. #Awesome</p>
 		</article>
 		<div class="asset"></div>
 	</div>
@@ -213,13 +213,19 @@
 			<div class="slides">
 				<ul>
 					<li class="height">
-						<a href="http://www.111minnagallery.com/" target="_blank" title="111 Minna Gallery"><img src="img/sponsors/111minagallery.png" alt="111 Minna Gallery logo" border="0"></a>
-					</li>
-					<li class="height">
 						<a href="http://wpengine.com/" target="_blank" title="WP Engine -  WordPress Hosting and Managed WordPress Hosting"><img src="img/sponsors/wpengine.png" alt="WP Engine logo" border="0"></a>
 					</li>
 					<li class="height">
 						<a href="http://fakt.ca/" target="_blank" title="Fakt - Creative Consulting"><img src="img/sponsors/fakt.png" alt="Fakt logo" border="0"></a>
+					</li>
+					<li class="height">
+						<a href="http://www.planwise.com/" target="_blank" title="Planwise"><img src="img/sponsors/planwise.png" alt="Planwise logo" border="0"></a>
+					</li>
+					<li class="height">
+						<a href="http://www.mitchellake.com/" target="_blank" title="Mitchellake"><img src="img/sponsors/mitchellake.png" alt="Mitchellake logo" border="0"></a>
+					</li>
+					<li class="height">
+						<a href="http://www.111minnagallery.com/" target="_blank" title="111 Minna Gallery"><img src="img/sponsors/111minagallery.png" alt="111 Minna Gallery logo" border="0"></a>
 					</li>
 				</ul>
 			</div>
