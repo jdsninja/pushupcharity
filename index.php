@@ -418,27 +418,7 @@
 	<div class="modal-footer"></div>
 </div>
 
-<script type="text/javascript" src="libs/jquery.min.js"></script>
-<script type="text/javascript" src="libs/bootstrap/js/bootstrap-modal.js"></script>
-<script type="text/javascript" src="libs/jquery.gridrotator.js"></script>
-<script type="text/javascript" src="libs/fancyBox/source/jquery.fancybox.js"></script>
-<script type="text/javascript" src="libs/fancyBox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
-<script src="libs/ss-social/ss-social.js"></script>
-<script type="text/javascript" src="js/global.js"></script>
-
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-40864323-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
-
+<script type="text/javascript" src="js/global.min.js"></script>
+<script type="text/javascript" src="js/custom.min.js"></script>
 </body>
 </html>

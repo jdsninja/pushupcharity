@@ -1,7 +1,10 @@
 #PushUp Charity Website
 
-##Image gallery plugin
+- Image gallery plugin
 https://github.com/codrops/AnimatedResponsiveImageGrid
 
-##Modal plugin
+- Modal plugin
 Twitter bootstrap javascript stuff
+
+- Optimisation
+Grunt
