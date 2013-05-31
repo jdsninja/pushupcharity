@@ -7,7 +7,6 @@
 	<link href="http://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
 
 	<link rel="stylesheet" href="css/styles.css?v=<?php echo time() ?>">
-	<link rel="stylesheet" href="libs/fancyBox/source/jquery.fancybox.css" type="text/css" media="screen">
 	<script type="text/javascript" src="http://tympanus.net/Development/AnimatedResponsiveImageGrid/js/modernizr.custom.26633.js"></script>
 
 </head>
@@ -31,7 +30,7 @@
 </section>
 <section id="logo">
 	<div class="asset"></div>
-	<a href="#" class="logo"><img src="img/logo-pushup-charity.png" alt=""></a>
+	<a href="http://pushupcharity.org" class="logo"><img src="img/logo-pushup-charity.png" alt="PushUp Charity logo"></a>
 </section>
 <div id="block3">
 	<section class="competitors">
@@ -47,6 +46,12 @@
 			</li>
 			<li>
 				<a href="http://99designs.ca" target="_blank" title="99 Designs - Design done differently"><img src="img/competitors/99designs.png" alt="99 Designs logo" border="0"></a>
+			</li>
+			<li>
+				<a href="http://www.heroku.com/" target="_blank" title="Heroku - Cloud Application Platform"><img src="img/competitors/heroku.png" alt="Heroku logo" border="0"></a>
+			</li>
+			<li>
+				<a href="http://www.nitropdf.com" target="_blank" title="Nitro - Create, Convert & Edit PDF Files"><img src="img/competitors/nitro.png" alt="Nitro logo" border="0"></a>
 			</li>
 		</ul>
 	</section>
