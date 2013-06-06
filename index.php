@@ -109,7 +109,7 @@
 				</div>
 				<div class="infos">
 					<p>Come WATCH the *craziest* event on the start-up calendar. Tickets sell FAST, so make sure you get one!</p>
-					<a href="#buyTicket" class="btn action" data-toggle="modal">Tickets</a>
+					<a href="http://pushupcharity.eventbrite.com/" class="btn action" target="_blank">Tickets</a>
 				</div>
 			</article>
 		</div>
@@ -147,14 +147,14 @@
 				</a>
 			</article>
 			<article class="blockd">
-				<button  href="#buyTicket" class="icon" data-toggle="modal">
+				<a href="http://pushupcharity.eventbrite.com/" class="icon" target="_blank">
 					<div class="icon-border-wrapper">
 						<div class="icon-border"></div>
 					</div>
 					<div class="icon-bg"></div>
 					<div class="icon-asset"></div>
 					<div class="tip">Tickets</div>
-				</button>
+				</a>
 			</article>
 		</div>
 	</div>
@@ -217,6 +217,12 @@
 			<button class="btn prev" style="display:none"><span class="caption">Previous</span></button>
 			<div class="slides">
 				<ul>
+					<li class="height">
+						<a href="http://www.brightfunds.org/" target="_blank" title="Bright funds - Nonprofit giving, Effective nonprofits, Donate to charity, Causes, Trusted place for giving"><img src="img/sponsors/bright_funds.png" alt="Bright Funds logo" border="0"></a>
+					</li>
+					<li class="height">
+						<a href="http://tekinosf.com/" target="_blank" title="Tekino"><img src="img/sponsors/tekino.png" alt="Tekino logo" border="0"></a>
+					</li>
 					<li class="height">
 						<a href="http://wpengine.com/" target="_blank" title="WP Engine -  WordPress Hosting and Managed WordPress Hosting"><img src="img/sponsors/wpengine.png" alt="WP Engine logo" border="0"></a>
 					</li>
@@ -311,7 +317,6 @@
             $count = "3";
 
             $a = "$host$filename?q=$search&rpp=$count&include_entities=true";
-
             $json = file_get_contents($a, false, $context);
 
             $obj = json_decode($json, true);
@@ -354,13 +359,6 @@
 		<button type="button" class="btn close" data-dismiss="modal" aria-hidden="true">×</button>
 	</div>
 	<div class="modal-body">
-		<!--<form action="#" id="form-submitForUpdate" data-form-type="submit">
-			<label for="email">
-				<spam class="caption">Email</spam>
-			</label> <input id="email" name="email" type="email" placeholder="Email" required="">
-			<button type="submit" class="btn submit">Submit</button>
-		</form> -->
-
 		<!-- Begin MailChimp Signup Form -->
 		<div id="mc_embed_signup">
 		<form action="http://pushupcharity.us5.list-manage.com/subscribe/post?u=d89b195c77122ddca2bf6afc3&amp;id=b6e6345ce8" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -399,16 +397,6 @@
 		<button type="button" class="btn close" data-dismiss="modal" aria-hidden="true">×</button>
 	</div>
 	<div class="modal-body">
-		<!--<form action="#" id="form-buyTicket" data-form-type="buy">
-			<label for="email">
-				<spam class="caption">Email</spam>
-			</label> <input id="email" name="email" type="email" placeholder="Email" required="">
-			<button type="submit" class="btn submit">Submit</button>
-		</form>
-		-->
-
-
-
 <div id="mc_embed_signup">
 <form action="http://pushupcharity.us5.list-manage.com/subscribe/post?u=d89b195c77122ddca2bf6afc3&amp;id=e369860a3d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 	<label for="mce-EMAIL">Subscribe to our mailing list</label>
@@ -416,13 +404,10 @@
 	<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
 </form>
 </div>
-
 <!--End mc_embed_signup-->
-
 	</div>
 	<div class="modal-footer"></div>
 </div>
-
 <script type="text/javascript" src="js/global.min.js"></script>
 <script type="text/javascript" src="js/custom.min.js"></script>
 </body>

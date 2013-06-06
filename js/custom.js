@@ -2,7 +2,6 @@ $(function () {
 	var Screen_width = window.innerWidth || document.documentElement.clientWidth,
 		Screen_height = window.innerHeight || document.documentElement.clientHeight;
 
-
 	$(window).resize(function() {
 		Screen_width = window.innerWidth || document.documentElement.clientWidth;
 		Screen_height = window.innerHeight || document.documentElement.clientHeight;
@@ -26,9 +25,6 @@ $(function () {
 	});
 
 	//get latest tweets
-	/*$.getJSON("https://api.twitter.com/1/statuses/user_timeline/user_timeline.json?count=1&include_rts=1&callback=?", function(data) {
-		$("#twitter").html(data[0].text);
-	}); */
 	$('.btn.get-map').on('click', function(){
 		$(this).animate({'left': 440}, 500);
 		$('.map').animate({'left': 0}, 500);
@@ -68,48 +64,24 @@ $(function () {
 	/**
 	 * Form
 	 */
-	//$("input, textarea", context).placeholder();
-	/*$(".contact-filters", context).find("a").click(function(evt){
-		evt.preventDefault();
-		$(".contact-filters", context).find("a").removeClass("active");
-		$(this).addClass("active");
-		var rel = $(this).attr("rel");
-		$(".form",context).data("form-type", rel).attr("data-form-type", rel);
-		$(".form",context).find(".field").removeClass("error");
-		$(".wrapper span",context).html("<div class='dot2'></div>All field required.").css("color", "#3c3f45");
-		if(rel === "hello"){
-			$("#company").parents(".field").slideUp();
-			$("#budgetField").slideUp();
-			$("#email").parents(".field").animate({ backgroundColor: "#3c3f45" },{ duration: 200 });
-			$("#desc").css("display","none");
-			$("#msg").css("display","block");
-		} else {
-			$("#email").parents(".field").animate({ backgroundColor: "#33363c" },{ duration: 200 });
-			$("#company").parents(".field").slideDown();
-			$("#budgetField").slideDown();
-			$("#desc").css("display","block");
-			$("#msg").css("display","none");
-		}
-		formValidate();
-	});*/
 
-
-	function sendEmail(param){
+	function sendEmail(param, type){
 		var jqxhr = $.post("mail.service.json.php",
 			param,
 			function(data){
-				if(data.status === "ok"){
-					console.log('Thank you!');
-				} else {
-					console.log("Malfunction, try again later.", data);
-				}
 			}, "json")
 			.error(function() {
-				console.log("Communication error, try again later.");
+				//console.log("Communication error, try again later.");
 			})
 			.complete(function() {
 				// for testing purpose
-				console.log('thank you');
+				if(type == 'apply'){
+					$('#applyToCompete .modal-body form').remove();
+					$('#applyToCompete .modal-body').html('<div style="text-align: center;font-size: 50px;color: #FFF;">Thank you!</div>');
+				}else if(type == 'questions'){
+					$('#formSubmitQuestions').empty();
+					$('#formSubmitQuestions').html('<div style="text-align: center;font-size: 50px;color: #FFF;">Thank you!</div>');
+				}
 			});
 	}
 
@@ -172,14 +144,10 @@ $(function () {
 		}
 
 		if(!error){
-			sendEmail(param);
+			sendEmail(param, type);
 		} else {
 		}
 	}
-
-	/*$("input,textarea", context).keyup(function(){
-		formValidate();
-	});*/
 
 	$(".btn.submit", 'form').on('click', function(evt){
 		//alert('try submit');
@@ -187,35 +155,7 @@ $(function () {
 
 		var form = $(this).parents('form');
 		formValidate(form);
-
-		//$(".required-note").fadeIn(400).text("Processing...").css("color", "green");
-
-		/*
-		var param = {};
-		param.name = $("#name").val();
-		param.email =  $("#email").val();
-		param.type = type;
-		param.msg = $("#msg").val();
-
-		var jqxhr = $.post("mail.service.json.php",
-			param,
-			function(data){
-				if(data.status === "ok"){
-					console.log('Thank you!');
-				} else {
-					console.log("Malfunction, try again later.");
-				}
-			}, "json")
-			.error(function() {
-				console.log("Communication error, try again later.");
-			})
-			.complete(function() {
-				// for testing purpose
-				console.log('thank you');
-			});
-			*/
 	});
-
 });
 
 // GOOGLE ANALYTIC
