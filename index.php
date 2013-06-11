@@ -39,6 +39,9 @@
 		</header>
 		<ul>
 			<li>
+				<a href="http://zaarly.com" target="_blank" title="Zaarly - Buy from amazing local people"><img src="img/competitors/zaarly.png" alt="Zaarly logo" border="0"></a>
+			</li>
+			<li>
 				<a href="http://taskrabbit.com" target="_blank" title="Task Rabbit - Task &amp; Errand Service By Awesome, Trustworthy People"><img src="img/competitors/taskrabbit.png" alt="Task Rabbit logo" border="0"></a>
 			</li>
 			<li>
@@ -70,7 +73,7 @@
 				</div>
 				<div class="infos">
 					<p>PushUpCharity is on June 27... Sign-up for updates and early-bird tickets.</p>
-					<button href="#submitForUpdate" class="btn action" data-toggle="modal">Updates</button>
+					<a href="http://pushupcharity.eventbrite.com/" class="btn action" target="_blank">Updates</a>
 				</div>
 			</article>
 			<article class="blockb">
@@ -117,14 +120,14 @@
 		<header></header>
 		<div class="wrapper">
 			<article class="blocka">
-				<button href="#submitForUpdate" class="icon" data-toggle="modal">
+				<a href="http://pushupcharity.eventbrite.com/" class="icon" target="_blank">
 					<div class="icon-border-wrapper">
 						<div class="icon-border"></div>
 					</div>
 					<div class="icon-bg"></div>
 					<div class="icon-asset"></div>
 					<div class="tip">Updates</div>
-				</button>
+				</a>
 			</article>
 			<article class="blockb">
 				<button href="#applyToCompete" class="icon" data-toggle="modal">
