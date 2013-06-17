@@ -205,7 +205,7 @@
 						<a href="http://www.muttville.org/" target="_blank" title="Muttville"><img src="img/charities/muttville.png" alt="Muttville logo" border="0"></a>
 					</li>
 					<li class="width">
-						<a href="http://samasource.org/" target="_blank" title="Samasource"><img src="img/charities/samasource.png" alt="Samasource logo" border="0"></a>
+						<a href="http://samasource.org/" target="_blank" title="Samasource"><img src="img/charities/samausa.png" alt="Samasource logo" border="0"></a>
 					</li>
 					<li class="height">
 						<a href="http://www.sffoodbank.org/" target="_blank" title="San Francisco and Marin Food Banks"><img src="img/charities/sffoodbank.png" alt="San Francisco and Marin Food Banks logo" border="0"></a>
@@ -220,6 +220,9 @@
 			<button class="btn prev" style="display:none"><span class="caption">Previous</span></button>
 			<div class="slides">
 				<ul>
+					<li class="height">
+						<a href="http://pivotallabs.com/" target="_blank" title="Pivotal Labs"><img src="img/sponsors/pivotal.png" alt="Pivotal Labs logo" border="0"></a>
+					</li>
 					<li class="height">
 						<a href="http://www.brightfunds.org/" target="_blank" title="Bright funds - Nonprofit giving, Effective nonprofits, Donate to charity, Causes, Trusted place for giving"><img src="img/sponsors/bright_funds.png" alt="Bright Funds logo" border="0"></a>
 					</li>
