@@ -221,6 +221,15 @@
 			<div class="slides">
 				<ul>
 					<li class="height">
+						<a href="http://subledger.com" target="_blank" title="Subledger - Accounting For Developers"><img src="img/sponsors/subledger.png" alt="Subledger logo" border="0"></a>
+					</li>
+					<li class="height">
+						<a href="http://getluckybird.com/" target="_blank" title="Lucky Bird - Mobile apps that make life more awesome"><img src="img/sponsors/luckybird.png" alt="lucky Bird logo" border="0"></a>
+					</li>
+					<li class="height">
+						<a href="http://attorneyfee.com" target="_blank" title="Attorney Fee - Find affordable attorneys"><img src="img/sponsors/attorneyfee.png" alt="Attorney Fee logo" border="0"></a>
+					</li>
+					<li class="height">
 						<a href="http://pivotallabs.com/" target="_blank" title="Pivotal Labs"><img src="img/sponsors/pivotal.png" alt="Pivotal Labs logo" border="0"></a>
 					</li>
 					<li class="height">
