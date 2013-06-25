@@ -99,7 +99,7 @@
 				</div>
 				<div class="infos">
 					<p>Is that extra $20 burning a hole in your pocket? Help us raise money for charity and donate here!</p>
-					<a href="https://rally.org/pushupcharity" class="btn action" target="_blank">Donate</a>
+					<a href="https://pushupcharity.brightfunds.org" class="btn action" target="_blank">Donate</a>
 				</div>
 			</article>
 			<article class="blockd">
@@ -116,81 +116,81 @@
 				</div>
 			</article>
 		</div>
-	<div id="actionCtn">
-		<header></header>
-		<div class="wrapper">
-			<article class="blocka">
-				<a href="http://pushupcharity.eventbrite.com/" class="icon" target="_blank">
-					<div class="icon-border-wrapper">
-						<div class="icon-border"></div>
-					</div>
-					<div class="icon-bg"></div>
-					<div class="icon-asset"></div>
-					<div class="tip">Updates</div>
-				</a>
-			</article>
-			<article class="blockb">
-				<button href="#applyToCompete" class="icon" data-toggle="modal">
-					<div class="icon-border-wrapper">
-						<div class="icon-border"></div>
-					</div>
-					<div class="icon-bg"></div>
-					<div class="icon-asset"></div>
-					<div class="tip">Compete</div>
-				</button>
-			</article>
-			<article class="blockc">
-				<a href="https://rally.org/pushupcharity" class="icon" target="_blank">
-					<div class="icon-border-wrapper">
-						<div class="icon-border"></div>
-					</div>
-					<div class="icon-bg"></div>
-					<div class="icon-asset"></div>
-					<div class="tip">Donate</div>
-				</a>
-			</article>
-			<article class="blockd">
-				<a href="http://pushupcharity.eventbrite.com/" class="icon" target="_blank">
-					<div class="icon-border-wrapper">
-						<div class="icon-border"></div>
-					</div>
-					<div class="icon-bg"></div>
-					<div class="icon-asset"></div>
-					<div class="tip">Tickets</div>
-				</a>
-			</article>
+		<div id="actionCtn">
+			<header></header>
+			<div class="wrapper">
+				<article class="blocka">
+					<a href="http://pushupcharity.eventbrite.com/" class="icon" target="_blank">
+						<div class="icon-border-wrapper">
+							<div class="icon-border"></div>
+						</div>
+						<div class="icon-bg"></div>
+						<div class="icon-asset"></div>
+						<div class="tip">Updates</div>
+					</a>
+				</article>
+				<article class="blockb">
+					<button href="#applyToCompete" class="icon" data-toggle="modal">
+						<div class="icon-border-wrapper">
+							<div class="icon-border"></div>
+						</div>
+						<div class="icon-bg"></div>
+						<div class="icon-asset"></div>
+						<div class="tip">Compete</div>
+					</button>
+				</article>
+				<article class="blockc">
+					<a href="https://pushupcharity.brightfunds.org" class="icon" target="_blank">
+						<div class="icon-border-wrapper">
+							<div class="icon-border"></div>
+						</div>
+						<div class="icon-bg"></div>
+						<div class="icon-asset"></div>
+						<div class="tip">Donate</div>
+					</a>
+				</article>
+				<article class="blockd">
+					<a href="http://pushupcharity.eventbrite.com/" class="icon" target="_blank">
+						<div class="icon-border-wrapper">
+							<div class="icon-border"></div>
+						</div>
+						<div class="icon-bg"></div>
+						<div class="icon-asset"></div>
+						<div class="tip">Tickets</div>
+					</a>
+				</article>
+			</div>
 		</div>
-	</div>
-</section>
+	</section>
 </div>
 <section id="infos">
 	<div class="wrapper">
-		<article class="block blocka">
-			<h1>Where & when?</h1>
-			<p class="big"><a href="https://maps.google.ca/maps?q=111+Minna+Gallery&fb=1&gl=ca&hq=111+Minna+Gallery&cid=0,0,13067323715644860555&t=m&z=16&iwloc=A" target="_blank" title="Click to see 111 Minna Gallery on google map.">111 Minna Gallery</a> on <br>Thursday June 27 @ 6pm.</p>
-			<p>The fantabulous folks at 111 Minna Gallery have donated their space for this event. You can buy drinks at the bar drinks and snacks provided. All the fun people will be there, so you should be too...</p>
-		</article>
-		<article class="block blockb">
-			<h1>How it works?</h1>
-			<p>Imagine 5 startups in crazy costumes doing pushups on stage to a theme song like "The Final Countdown"...and all the funds raised go to charity. #Awesome</p>
-		</article>
-		<div class="asset"></div>
-	</div>
-	<div id="map">
-		<div class="map">
-			 <!--
-			<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=111+Minna+Gallery,+Minna+Street,+San+Francisco,+CA&amp;sll=37.787522,-122.399545&amp;sspn=0.001232,0.002398&amp;ie=UTF8&amp;hq=111+Minna+Gallery,&amp;hnear=Minna+St,+San+Francisco,+California&amp;t=m&amp;ll=37.787437,-122.399293&amp;spn=0.004926,0.009592&amp;output=embed"></iframe>
-		     -->
+		<div class="map-ctn">
+			<a href="https://maps.google.ca/maps?q=111+Minna+Gallery&fb=1&gl=ca&hq=111+Minna+Gallery&cid=0,0,13067323715644860555&t=m&z=16&iwloc=A" class="pin" target="_blank" title="Click to see 111 Minna Gallery on google map."><span class="caption">111 Minna Gallery</span></a>
+			<div class="map"></div>
 		</div>
-		<!--
-		<button class="btn get-map">
-			<div class="handle"></div>
-			<div class="icon-map"></div>
-		</button>
-		-->
+		<div class="content">
+			<article class="block blocka">
+				<h1>Where & when?</h1>
+
+				<p class="big">
+					<strong><a href="https://maps.google.ca/maps?q=111+Minna+Gallery&fb=1&gl=ca&hq=111+Minna+Gallery&cid=0,0,13067323715644860555&t=m&z=16&iwloc=A" target="_blank" title="Click to see 111 Minna Gallery on google map.">111 Minna Gallery</a></strong> on
+					<strong>Thursday June 27 @ 6pm</strong>.</p>
+
+				<p>The fantabulous folks at 111 Minna Gallery have donated their space for this event. You can buy drinks at the bar drinks and snacks provided. All the fun people will be there, so you should be too...</p>
+
+				<div class="asset"></div>
+			</article>
+			<article class="block blockb">
+				<h1>How it works?</h1>
+
+				<p>Imagine 5 startups in crazy costumes doing pushups on stage to a theme song like "The Final Countdown"...and all the funds raised go to charity. #Awesome</p>
+			</article>
+		</div>
+
 	</div>
 </section>
-<section id="sponsors">
+<section id="charities" class="logolist">
 	<div class="wrapper">
 		<div class="triangle"></div>
 		<h2>Charities</h2>
@@ -199,59 +199,62 @@
 			<div class="slides">
 				<ul>
 					<li class="height">
-						<a href="https://zip.kiva.org/" target="_blank" title="Kiva Zip - Innovations in person-to-person lending"><img src="img/charities/kivazip.png" alt="Kiva Zip logo" border="0"></a>
+						<a href="https://zip.kiva.org/" target="_blank" title="Kiva Zip - Innovations in person-to-person lending"><img src="img/charities/kivazip.png?v=2" alt="Kiva Zip logo" border="0"></a>
 					</li>
 					<li class="height">
-						<a href="http://www.muttville.org/" target="_blank" title="Muttville"><img src="img/charities/muttville.png" alt="Muttville logo" border="0"></a>
-					</li>
-					<li class="width">
-						<a href="http://samasource.org/" target="_blank" title="Samasource"><img src="img/charities/samausa.png" alt="Samasource logo" border="0"></a>
+						<a href="http://www.muttville.org/" target="_blank" title="Muttville"><img src="img/charities/muttville.png?v=2" alt="Muttville logo" border="0"></a>
 					</li>
 					<li class="height">
-						<a href="http://www.sffoodbank.org/" target="_blank" title="San Francisco and Marin Food Banks"><img src="img/charities/sffoodbank.png" alt="San Francisco and Marin Food Banks logo" border="0"></a>
+						<a href="http://samasource.org/" target="_blank" title="Samasource"><img src="img/charities/samausa.png?v=2" alt="Samasource logo" border="0"></a>
+					</li>
+					<li class="height">
+						<a href="http://www.sffoodbank.org/" target="_blank" title="San Francisco and Marin Food Banks"><img src="img/charities/sffoodbank.png?v=2" alt="San Francisco and Marin Food Banks logo" border="0"></a>
 					</li>
 				</ul>
 			</div>
 			<button class="btn next" style="display:none;"><span class="caption">Next</span></button>
 		</div>
-
+	</div>
+</section>
+<section id="sponsors" class="logolist">
+	<div class="wrapper">
 		<h2>Sponsors</h2>
 		<div id="slideshow">
 			<button class="btn prev" style="display:none"><span class="caption">Previous</span></button>
 			<div class="slides">
 				<ul>
 					<li class="height">
-						<a href="http://subledger.com" target="_blank" title="Subledger - Accounting For Developers"><img src="img/sponsors/subledger.png" alt="Subledger logo" border="0"></a>
+						<a href="http://subledger.com" target="_blank" title="Subledger - Accounting For Developers"><img src="img/sponsors/subledger.png?v=2" alt="Subledger logo" border="0"></a>
 					</li>
 					<li class="height">
-						<a href="http://getluckybird.com/" target="_blank" title="Lucky Bird - Mobile apps that make life more awesome"><img src="img/sponsors/luckybird.png" alt="lucky Bird logo" border="0"></a>
+						<a href="http://getluckybird.com/" target="_blank" title="Lucky Bird - Mobile apps that make life more awesome"><img src="img/sponsors/luckybird.png?v=2" alt="lucky Bird logo" border="0"></a>
 					</li>
 					<li class="height">
-						<a href="http://attorneyfee.com" target="_blank" title="Attorney Fee - Find affordable attorneys"><img src="img/sponsors/attorneyfee.png" alt="Attorney Fee logo" border="0"></a>
+						<a href="http://attorneyfee.com" target="_blank" title="Attorney Fee - Find affordable attorneys"><img src="img/sponsors/attorneyfee.png?v=2" alt="Attorney Fee logo" border="0"></a>
 					</li>
 					<li class="height">
-						<a href="http://pivotallabs.com/" target="_blank" title="Pivotal Labs"><img src="img/sponsors/pivotal.png" alt="Pivotal Labs logo" border="0"></a>
+						<a href="http://pivotallabs.com/" target="_blank" title="Pivotal Labs"><img src="img/sponsors/pivotal.png?v=2" alt="Pivotal Labs logo" border="0"></a>
 					</li>
 					<li class="height">
-						<a href="http://www.brightfunds.org/" target="_blank" title="Bright funds - Nonprofit giving, Effective nonprofits, Donate to charity, Causes, Trusted place for giving"><img src="img/sponsors/bright_funds.png" alt="Bright Funds logo" border="0"></a>
+						<a href="http://www.brightfunds.org/" target="_blank" title="Bright funds - Nonprofit giving, Effective nonprofits, Donate to charity, Causes, Trusted place for giving"><img src="img/sponsors/bright_funds.png?v=2" alt="Bright Funds logo" border="0"></a>
 					</li>
 					<li class="height">
-						<a href="http://tekinosf.com/" target="_blank" title="Tekino"><img src="img/sponsors/tekino.png" alt="Tekino logo" border="0"></a>
+						<a href="http://tekinosf.com/" target="_blank" title="Tekino"><img src="img/sponsors/tekino.png?v=2" alt="Tekino logo" border="0"></a>
 					</li>
 					<li class="height">
-						<a href="http://wpengine.com/" target="_blank" title="WP Engine -  WordPress Hosting and Managed WordPress Hosting"><img src="img/sponsors/wpengine.png" alt="WP Engine logo" border="0"></a>
+						<a href="http://wpengine.com/" target="_blank" title="WP Engine -  WordPress Hosting and Managed WordPress Hosting"><img src="img/sponsors/wpengine.png?v=2" alt="WP Engine logo" border="0"></a>
 					</li>
 					<li class="height">
-						<a href="http://fakt.ca/" target="_blank" title="Fakt - Creative Consulting"><img src="img/sponsors/fakt.png" alt="Fakt logo" border="0"></a>
+						<a href="http://fakt.ca/" target="_blank" title="Fakt - Creative Consulting"><img src="img/sponsors/fakt.png?v=2" alt="Fakt logo" border="0"></a>
 					</li>
 					<li class="height">
-						<a href="http://www.planwise.com/" target="_blank" title="Planwise"><img src="img/sponsors/planwise.png" alt="Planwise logo" border="0"></a>
+						<a href="http://www.planwise.com/" target="_blank" title="Planwise"><img src="img/sponsors/planwise.png?v=2" alt="Planwise logo" border="0"></a>
 					</li>
 					<li class="height">
-						<a href="http://www.mitchellake.com/" target="_blank" title="Mitchellake"><img src="img/sponsors/mitchellake.png" alt="Mitchellake logo" border="0"></a>
+						<a href="http://www.mitchellake.com/" target="_blank" title="Mitchellake"><img src="img/sponsors/mitchellake.png?v=2" alt="Mitchellake logo" border="0"></a>
 					</li>
 					<li class="height">
-						<a href="http://www.111minnagallery.com/" target="_blank" title="111 Minna Gallery"><img src="img/sponsors/111minagallery.png" alt="111 Minna Gallery logo" border="0"></a>
+						<a href="http://www.111minnagallery.com/" target="_blank" title="111 Minna Gallery"><img src="img/sponsors/111minagallery.png?v=2" alt="111 Minna Gallery logo" border="0"></a>
 					</li>
 				</ul>
 			</div>
@@ -307,7 +310,8 @@
 		<div class="wrapper">
 			<section id="form">
 				<h1>Got questions about this crazy event?</h1>
-				<form id="formSubmitQuestions" action="#"  data-form-type="questions">
+
+				<form id="formSubmitQuestions" action="#" data-form-type="questions">
 					<label for="name">Name</label> <input id="name" name="name" type="text" placeholder="Name" required>
 					<label for="email">Mail</label>
 					<input id="email" name="email" type="email" placeholder="Mail" required>
@@ -317,33 +321,20 @@
 			</section>
 			<section id="twitter">
 				<h1>Latest tweets</h1>
-            <?php
+
+				<!--<?php
             $host = "http://search.twitter.com";
             $filename = "/search.json";
 
-            $opts = array('http' => array(
-                 'method'=>"GET",
-                 'header'=>"Accept-language: en\r\n"
-            ));
-            $context = stream_context_create($opts);
+            $opts = array('http' => array( 'method'=>"GET", 'header'=>"Accept-language: en\r\n" )); $context = stream_context_create($opts);
 
-            $search = "pushupcharity";
-            $search = str_replace(" ", "%20", $search);
-            $count = "3";
+				$search = "pushupcharity"; $search = str_replace(" ", "%20", $search); $count = "3";
 
-            $a = "$host$filename?q=$search&rpp=$count&include_entities=true";
-            $json = file_get_contents($a, false, $context);
+				$a = "$host$filename?q=$search&rpp=$count&include_entities=true"; $json = file_get_contents($a, false, $context);
 
-            $obj = json_decode($json, true);
+				$obj = json_decode($json, true);
 
-            foreach ($obj['results'] as $index => $result) {
-				$id = $result['id'];
-				$tweet = $result['text'];
-				$user = $result['from_user'];
-				$to_user = $result['to_user'];
-				$media_url = $result['media_url'];
-				$profile_image_url = $result['profile_image_url'];
-				?>
+				foreach ($obj['results'] as $index => $result) { $id = $result['id']; $tweet = $result['text']; $user = $result['from_user']; $to_user = $result['to_user']; $media_url = $result['media_url']; $profile_image_url = $result['profile_image_url']; ?>
 				<article>
 					<div class="blocka">
 						<div class="img" style="background: url('<?php echo $profile_image_url;?>') center center no-repeat transparent;background-size:75px"></div>
@@ -353,18 +344,35 @@
 						<div class="tweet"><?php echo $tweet?></div>
 					</div>
 				</article>
-			<?php
+				<?php
             }
-            ?>
+            ?>    -->
 			</section>
+		</div>
+	</section>
+	<section id="organizers">
+		<div class="wrapper">
+			<h2>Organizers</h2>
+			<ul>
+				<li>
+					<div class="img img1"></div>
+					<div class="username">Max <a href="https://twitter.com/MaxAlts" target="_blank">@MaxAlts</a></div>
+				</li>
+				<li>
+					<div class="img img2"></div>
+					<div class="username">Noah <a href="https://twitter.com/Noahtorious" target="_blank">@Noahtorious</a></div>
+				</li>
+				<li>
+					<div class="img img3"></div>
+					<div class="username">Dan <a href="https://twitter.com/dantmurphy" target="_blank">@dantmurphy</a></div>
+				</li>
+			</ul>
 		</div>
 	</section>
 	<section id="copyright">
 		<div class="wrapper">
-			<div class="copyright">&copy; Copyright 2013 Pushup Charity by</div>
-			<div class="fakt">
-				<a href="http://fakt.ca/" target="_blank"><img src="img/logo-fakt.png" width="68" alt="Fakt" border="0"></a>
-			</div>
+			<span>&copy; Copyright 2013 Pushup Charity by</span>
+			<a href="http://fakt.ca/" target="_blank"><img src="img/logo-fakt-mini.png" width="68" alt="Fakt" border="0"></a>
 		</div>
 	</section>
 </footer>
@@ -376,11 +384,14 @@
 	<div class="modal-body">
 		<!-- Begin MailChimp Signup Form -->
 		<div id="mc_embed_signup">
-		<form action="http://pushupcharity.us5.list-manage.com/subscribe/post?u=d89b195c77122ddca2bf6afc3&amp;id=b6e6345ce8" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-			<label for="mce-EMAIL">Subscribe to our mailing list</label>
-			<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-			<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-		</form>
+			<form action="http://pushupcharity.us5.list-manage.com/subscribe/post?u=d89b195c77122ddca2bf6afc3&amp;id=b6e6345ce8" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+				<label for="mce-EMAIL">Subscribe to our mailing list</label>
+				<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+
+				<div class="clear">
+					<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+				</div>
+			</form>
 		</div>
 		<!--End mc_embed_signup-->
 	</div>
@@ -395,12 +406,9 @@
 		<form action="#" id="form-applyToCompete" data-form-type="apply">
 			<label for="name">
 				<spam class="caption">Name</spam>
-			</label>
-			<input id="name" name="name" type="text" placeholder="Name" required>
-			<label for="email">
-				<spam class="caption">Email</spam>
-			</label>
-			<input id="email" name="email" type="email" placeholder="Email" required>
+			</label> <input id="name" name="name" type="text" placeholder="Name" required> <label for="email">
+			<spam class="caption">Email</spam>
+		</label> <input id="email" name="email" type="email" placeholder="Email" required>
 			<button type="submit" class="btn submit">Submit</button>
 		</form>
 	</div>
@@ -412,14 +420,17 @@
 		<button type="button" class="btn close" data-dismiss="modal" aria-hidden="true">×</button>
 	</div>
 	<div class="modal-body">
-<div id="mc_embed_signup">
-<form action="http://pushupcharity.us5.list-manage.com/subscribe/post?u=d89b195c77122ddca2bf6afc3&amp;id=e369860a3d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-	<label for="mce-EMAIL">Subscribe to our mailing list</label>
-	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-	<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-</form>
-</div>
-<!--End mc_embed_signup-->
+		<div id="mc_embed_signup">
+			<form action="http://pushupcharity.us5.list-manage.com/subscribe/post?u=d89b195c77122ddca2bf6afc3&amp;id=e369860a3d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+				<label for="mce-EMAIL">Subscribe to our mailing list</label>
+				<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+
+				<div class="clear">
+					<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+				</div>
+			</form>
+		</div>
+		<!--End mc_embed_signup-->
 	</div>
 	<div class="modal-footer"></div>
 </div>

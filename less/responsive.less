@@ -9,7 +9,10 @@
 	}
 
 	// Videos
-	#video{padding-top:60px;}
+	#video {
+		padding-top: 60px;
+	}
+
 	.video-border {
 		width: 700px;
 		margin: 0 auto;
@@ -33,9 +36,10 @@
 	}
 
 	// Actions
-	#block3{
+	#block3 {
 		padding: 0 0 60px;
 	}
+
 	.actions {
 		height: auto;
 		header {
@@ -64,19 +68,22 @@
 			.btn {
 				top: 0;
 			}
-			p{
+			p {
 				height: auto;
 				font-size: 18px;
 				line-height: 25px;
-				padding-bototm:20px;
+				padding-bototm: 20px;
 			}
 		}
 	}
-	.btn.action{
+
+	.btn.action {
 		font-size: 25px;
 	}
+
 	//infos
-	#infos {  padding:0 0 60px;
+	#infos {
+		padding: 0 0 60px;
 		.asset {
 			display: none
 		}
@@ -97,10 +104,12 @@
 	}
 
 	// Sponsors
-	#sponsors {
+	.logolist {
 		padding-top: 60px;
 		padding-bottom: 30px;
-		h2{text-align: center}
+		h2 {
+			text-align: center
+		}
 	}
 
 	.slides img {
@@ -108,15 +117,30 @@
 	}
 
 	// Contacts
-
 	#form {
 		float: none;
 		width: auto;
 	}
-
 	#twitter {
 		display: none;
 	}
+	 #infos{
+		 .map-ctn{display: none}
+		 .content {
+			 float: none;
+			 width: auto;
+			 padding-left: 0;
+		 }
+	 }
+	#organizers{
+		.img{
+			display: inline-block;
+			height: 190px;
+			width: 190px;
+			margin-bottom: 15px;
+		}
+	}
+
 }
 
 @media only screen and (max-width:700px) {
@@ -125,7 +149,7 @@
 		article {
 			.infos {
 				padding-left: 5%;
-				width:45%;
+				width: 45%;
 			}
 		}
 	}
@@ -169,32 +193,62 @@
 			margin-top: 20px;
 		}
 	}
+	#organizers{
+		li{
+			text-align: center;
+			float: none;
+			width: auto;
+			display: block;
+			.clearfix;
+			padding-left:0;
+			padding-right:0;
+		}
+		.img,
+		.username{
+			float:left;
+		}
+		.img{
+			display: inline-block;
+			height: 150px;
+			width: 150px;
+			margin-bottom: 0;
+		}
+		.username{
+			padding-left:5%;
+			padding-top:60px;
+			font-size: 25px;
+		}
+	}
 }
 
 @media only screen and (max-width:510px) {
 	#mainHeader h1 {
 		font-size: 18px;
 	}
-	#mainHeader ul a {
 
+	#mainHeader ul a {
 		width: 30px;
 		height: 30px;
 		line-height: 34px;
 	}
-	.competitors{
-		padding-bottom: 60px;}
+
+	.competitors {
+		padding-bottom: 60px;
+	}
+
 	.competitors li {
 		display: block;
 		padding-left: 0;
 		padding-bottom: 30px;
 	}
+
 	// Actions
 	.actions {
 		article {
 			.icon {
 				float: none;
 				display: inline-block;
-				left:0;
+				left: 0;
 			}
 			.btn {
 				top: 0;
@@ -207,7 +261,10 @@
 	}
 
 	// Videos
-	#video .wrapper{padding:0;}
+	#video .wrapper {
+		padding: 0;
+	}
+
 	.video-border {
 		width: 304px;
 		height: auto;
@@ -219,35 +276,51 @@
 
 		}
 	}
+
 	// Sponsors
-	#sponsors{padding:60px 0 0;
-		text-align: center;}
+	.logolist {
+		padding: 60px 0 0;
+		text-align: center;
+	}
 
 	// Competitors
-	#slideshow{height: auto; padding-bottom: 0;padding-top:0;}
-	#slideshow .slides{height: auto;
-		width: auto;overflow: visible;
+	#slideshow {
+		height: auto;
+		padding-bottom: 0;
+		padding-top: 0;
+	}
+
+	#slideshow .slides {
+		height: auto;
+		width: auto;
+		overflow: visible;
 		position: static;
-		left: 0;}
-	#slideshow .slides li{
+		left: 0;
+	}
+
+	#slideshow .slides li {
 		width: auto;
 		float: none;
 		display: block;
 		text-align: center;
-	} #slideshow .slides ul{padding-bottom:30px;}
-	.slides img {
-		width: 52%;
-		height:auto !important;
 	}
 
-	.modal{
+	#slideshow .slides ul {
+		padding-bottom: 30px;
+	}
+
+	.slides img {
+		width: 52%;
+		height: auto !important;
+	}
+	.modal {
 		left: 2%;
 		width: 96%;
 		margin-left: 0;
 		.box-sizing(border-box);
 	}
 	#mc_embed_signup input.button {
-		width: auto!important;
+		width: auto !important;
 	}
 	.modal .btn.submit {
 		width: auto;
