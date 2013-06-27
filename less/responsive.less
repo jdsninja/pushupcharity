@@ -2,6 +2,11 @@
 // --------------------------------------------------
 
 @media only screen and (max-width: 959px) {
+	#mainHeader .hero {
+		display: none;
+	}
+	#mainHeader h1,
+	#mainHeader ul {width:50%}
 	.wrapper {
 		width: auto;
 		padding: 0 5%;
@@ -121,19 +126,24 @@
 		float: none;
 		width: auto;
 	}
+
 	#twitter {
 		display: none;
 	}
-	 #infos{
-		 .map-ctn{display: none}
-		 .content {
-			 float: none;
-			 width: auto;
-			 padding-left: 0;
-		 }
-	 }
-	#organizers{
-		.img{
+
+	#infos {
+		.map-ctn {
+			display: none
+		}
+		.content {
+			float: none;
+			width: auto;
+			padding-left: 0;
+		}
+	}
+
+	#organizers {
+		.img {
 			display: inline-block;
 			height: 190px;
 			width: 190px;
@@ -144,6 +154,7 @@
 }
 
 @media only screen and (max-width:700px) {
+
 	// Actions
 	.actions {
 		article {
@@ -193,32 +204,49 @@
 			margin-top: 20px;
 		}
 	}
-	#organizers{
-		li{
+
+	#organizers {
+		li {
 			text-align: center;
 			float: none;
 			width: auto;
 			display: block;
 			.clearfix;
-			padding-left:0;
-			padding-right:0;
+			padding-left: 0;
+			padding-right: 0;
 		}
 		.img,
-		.username{
-			float:left;
+		.username {
+			float: left;
 		}
-		.img{
+		.img {
 			display: inline-block;
 			height: 150px;
 			width: 150px;
 			margin-bottom: 0;
 		}
-		.username{
-			padding-left:5%;
-			padding-top:60px;
+		.username {
+			padding-left: 5%;
+			padding-top: 60px;
 			font-size: 25px;
 		}
 	}
+
+	#slideshow .slides li{
+		width:30%;
+	}
+	.logolist {
+		.hero {
+			width: auto !important
+		}
+		.height {
+			img {
+				height: auto;
+				width: 100%;
+			}
+		}
+	}
+
 }
 
 @media only screen and (max-width:510px) {
@@ -299,10 +327,11 @@
 	}
 
 	#slideshow .slides li {
-		width: auto;
+		width: 50%;
 		float: none;
 		display: block;
 		text-align: center;
+		margin:0 auto;
 	}
 
 	#slideshow .slides ul {
@@ -313,15 +342,18 @@
 		width: 52%;
 		height: auto !important;
 	}
+
 	.modal {
 		left: 2%;
 		width: 96%;
 		margin-left: 0;
 		.box-sizing(border-box);
 	}
+
 	#mc_embed_signup input.button {
 		width: auto !important;
 	}
+
 	.modal .btn.submit {
 		width: auto;
 	}

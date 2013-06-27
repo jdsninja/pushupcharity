@@ -5,15 +5,14 @@
 	<meta charset="UTF-8">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,300,700' rel='stylesheet' type='text/css'>
 	<link href="http://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
-
 	<link rel="stylesheet" href="css/styles.css?v=<?php echo time() ?>">
 	<script type="text/javascript" src="http://tympanus.net/Development/AnimatedResponsiveImageGrid/js/modernizr.custom.26633.js"></script>
-
 </head>
 <body>
 <header id="mainHeader">
 	<div class="wrapper">
 		<h1 class="title">Push Up Charity</h1>
+		<div class="hero"><p><span>In partnership with</span> <a href="https://www.brightfunds.org/" title="Bright funds - Nonprofit giving, Effective nonprofits, Donate to charity, Causes, Trusted place for giving"><img src="img/partnership-logo.png" alt="Bright funds logo" border="0"></a></p></div>
 		<ul class="social">
 			<li><a href="https://twitter.com/pushupcharity" class="ss-icon" target="_blank">Twitter</a></li>
 			<li><a href="https://www.facebook.com/PushUpCharity" class="ss-icon" target="_blank">Facebook</a></li>
@@ -223,6 +222,9 @@
 			<button class="btn prev" style="display:none"><span class="caption">Previous</span></button>
 			<div class="slides">
 				<ul>
+					<li class="hero">
+						<a href="http://www.brightfunds.org/" target="_blank" title="Bright funds - Nonprofit giving, Effective nonprofits, Donate to charity, Causes, Trusted place for giving"><img src="img/sponsors/bright_funds.png?v=2" alt="Bright Funds logo" border="0"></a>
+					</li>
 					<li class="height">
 						<a href="http://subledger.com" target="_blank" title="Subledger - Accounting For Developers"><img src="img/sponsors/subledger.png?v=2" alt="Subledger logo" border="0"></a>
 					</li>
@@ -234,9 +236,6 @@
 					</li>
 					<li class="height">
 						<a href="http://pivotallabs.com/" target="_blank" title="Pivotal Labs"><img src="img/sponsors/pivotal.png?v=2" alt="Pivotal Labs logo" border="0"></a>
-					</li>
-					<li class="height">
-						<a href="http://www.brightfunds.org/" target="_blank" title="Bright funds - Nonprofit giving, Effective nonprofits, Donate to charity, Causes, Trusted place for giving"><img src="img/sponsors/bright_funds.png?v=2" alt="Bright Funds logo" border="0"></a>
 					</li>
 					<li class="height">
 						<a href="http://tekinosf.com/" target="_blank" title="Tekino"><img src="img/sponsors/tekino.png?v=2" alt="Tekino logo" border="0"></a>

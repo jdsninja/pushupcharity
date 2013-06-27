@@ -90,6 +90,7 @@ p {
 	width: 50px;
 	height: 50px;
 	top: 100%;
+	z-index: 1;
 	.rotate(45deg);
 }
 
@@ -103,12 +104,41 @@ p {
 	text-transform: uppercase;
 	padding: 15px 0;
 	h1 {
+		width: 30%;
 		font-size: 23px;
 		float: left;
 		line-height: 35px;
 	}
-	ul {
 
+	.hero {
+		width: 40%;
+		float: left;
+		text-align: left;
+		color: #03555c;
+		text-transform: uppercase;
+		z-index: 2;
+		position: relative;
+		text-align: center;
+		p{
+			display: inline-block;
+			font-size: 11px;
+		}
+		a {
+			display: inline-block;
+			height: 30px;
+		}
+		span {
+			float: left;
+			line-height: 35px;
+			padding-right: 10px;
+		}
+		img {
+			height: 30px
+		}
+	}
+	ul {
+		width: 30%;
+		text-align: right;
 		float: right;
 		li {
 			padding-left: 5px;
@@ -122,8 +152,6 @@ p {
 			text-align: center;
 			display: inline-block;
 			line-height: 39px;
-
-
 			.transition(all .4s);
 			&:hover,
 			&:focus {
@@ -485,8 +513,8 @@ p {
 			background: url('../img/icon-map.png') center center transparent no-repeat;
 			.transition(top .4s);
 			&:hover,
-			&:focus{
-				top:-40px;
+			&:focus {
+				top: -40px;
 			}
 		}
 	}
@@ -601,6 +629,13 @@ p {
 	.height {
 		img {
 			height: 60px;
+		}
+	}
+	.hero {
+		width: 100% !important;
+		padding-left:0 !important;padding-right:0 !important;
+		img {
+			height: 100px;
 		}
 	}
 }
@@ -779,7 +814,7 @@ p {
 
 #form {
 	//float: left;
-	margin:0 auto;
+	margin: 0 auto;
 	width: 62%;
 }
 
@@ -837,7 +872,9 @@ p {
 	font-size: 19px;
 	text-align: center;
 	padding: 30px 0;
-	h2{padding-bottom:30px;}
+	h2 {
+		padding-bottom: 30px;
+	}
 	li {
 		padding: 0 5% 50px;
 	}
